@@ -1,0 +1,69 @@
+.btn {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-body);
+    cursor: pointer;
+    transition: 0.3s;
+    padding: var(--spacing-s) var(--spacing-m);
+    border-radius: var(--radius-xl);
+}
+
+.btn-primary {
+    border: 1px solid var(--button-primary-border-color);
+    background-color: var(--button-primary-color);
+    color: var(--backgroung-main-color);
+}
+
+.btn-secondary {
+    border: 1px solid var(--button-secondary-border-color);
+    background-color: var(--button-secondary-color);
+    color: var(--text-secondary-color);
+}
+
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn-arrow-down {
+    padding: 12px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+    border: 1px solid var(--button-primary-border-color);
+    background-color: var(--backgroung-main-color);
+
+
+}
+
+
+.btn-category {
+    border: 1px solid var(--button-secondary-border-color);
+    background-color: var(--background-surface-fill2-color);
+    color: var(--text-secondary-color);
+}
+.btn-arrow {
+    border: 1px solid var(--button-primary-border-color);
+    background-color: var(--button-primary-color);
+    color: var(--text-neutral-color);
+    padding: var(--radius-m) var(--radius-m);
+}
+
+.btn-more {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid var(--button-primary-border-color);
+    background-color: var(--button-secondary-color);
+    color: var(--text-primary-color);
+}
+
+
+
+/* 
+<div>
+<button class="button-icon">
+<img src="/img/icon-arrow.svg" alt="icon-arrow">
+</button>
+</div> */
