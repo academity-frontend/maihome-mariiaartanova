@@ -1,5 +1,3 @@
-
-
 :root {
     --text-primary-color: #1A1A1A;
     --text-tertiary-color: #666666;
@@ -12,6 +10,11 @@
     --backgroung-secondary-color: #F4F4F6;
     --background-surface-stroke-color: #C8C8C8;
     --background-surface-fill2-color: #FAFAFA;
+    --background-hero-color: #00000080;
+
+    --background-instagram-color: #F00073;
+    --background-facebook-color: #1877F2;
+    --background-twitter-color: #1DA1F2;
 
 
     --button-primary-color: #3B6DFF;
@@ -19,5 +22,37 @@
 
     --button-secondary-color: #E6ECFE;
     --button-secondary-border-color: rgb(from var(--backgroung-main-color) r g b / 0.75);
+
+    --background-primary-default-color: #3B6DFF;
+
+    --border-color: #86CDC4;
+
+    /* hover  */
+
+    --text-hover-secondary-color: #779AFF;
+
+    --backgroung-hover-primary-color: #779AFF;
+    --backgroung-hover-secondary-color: #E6ECFE;
+
+
+    --btn-hover: #779AFF;
+    --btn-active: #295FFF;
+
+
+    /* active */
+
+    --backgroung-active-primary-color: #295FFF;
+    --backgroung-active-secondary-color: #85A3FF;
+
+    --text-active-primary-color: #FFFFFF;
+
+    --btn-active: #295FFF;
+
+
+    /* .category */
+
+    --category-hover: #3B6DFF;
+    --category-active: #295FFF;
+
 
 }

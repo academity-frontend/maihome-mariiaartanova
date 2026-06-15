@@ -1,5 +1,7 @@
 .submit {
     padding-top: var(--spacing-l);
+    display: flex;
+    justify-content: space-between;
 }
 
 .submit header {
@@ -12,6 +14,7 @@
 .submit-h {
     padding-top: var(--spacing-m);
     margin-bottom: var(--spacing-xs);
+    color: var(--text-hero-color);
 }
 
 .submit-p {
@@ -20,5 +23,6 @@
     width: var(--width-m);
     margin: var(--spacing-xs);
     margin-bottom: var(--spacing-l);
+    color: var(--text-hero-color);
 }
 

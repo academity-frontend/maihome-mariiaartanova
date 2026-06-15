@@ -39,7 +39,10 @@
     --radius-s: 8px;
     --radius-m: 16px;
     --radius-l: 24px;
-    --radius-xl: 40px;
+    --radius-xl: 32px;
+    --radius-xxl: 40px;
+    --radius-logo: 50px;
+    
 
     --margin-auto: auto;
 }
