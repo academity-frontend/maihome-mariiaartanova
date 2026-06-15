@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-xs) var(--spacing-l);
+    color: var(--text-hero-color);
+
+}
+
+.maihome span {
+    font-weight: var(--font-weight-xl);
+    font-size: var(--font-size-body);
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.maihome {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xxl);
+    padding-top: var(--spacing-l);
+    color: var(--text-hero-color);
+}
+
+.maihome nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xxl);
+
+}
+
+.maihome nav ul {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-small);
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-xl);
+    align-items: center;
+    margin: 1px;
+    padding: 1px;
+    color: var(--text-hero-color);
+}
+
+.maihome a {
+    white-space: nowrap;
+}
