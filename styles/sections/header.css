@@ -38,10 +38,10 @@ header {
     font-size: var(--font-size-small);
     list-style: none;
     display: flex;
-    gap: var(--spacing-xl);
+    /* gap: var(--spacing-xl); */
     align-items: center;
-    margin: 1px;
-    padding: 1px;
+    /* margin: 1px; */
+    /* padding: 1px; */
     color: var(--text-hero-color);
 }
 
