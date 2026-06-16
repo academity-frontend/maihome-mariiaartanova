@@ -1,0 +1,82 @@
+.about-us {
+    background-color: var(--text-neutral-color);
+}
+
+.about-h {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-body);
+    min-width: var(--width-xs);
+    padding-left: var(--spacing-l);
+}
+
+.about-top {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-tertiary-color);
+    font-weight: var(--font-weight-regular);
+
+}
+
+.about-p {
+    max-width: var(--width-xl);
+    margin: 0;
+    font-size: var(--font-size-h3);
+    color: var(--text-tertiary-color);
+
+}
+
+.about-us ul {
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-body);
+}
+
+.about-us span {
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary-color);
+}
+
+.about-bottom {
+    display: flex;
+    gap: var(--spacing-l);
+    justify-content: center;
+}
+
+.review-card {
+    background: var(--backgroung-main-color);
+    padding: 30px;
+    border-radius: 40px;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.review-card blockquote {
+    margin: 0;
+}
+
+.review-card p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-primary-color);
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/*   */
+
+.review-card figcaption p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+    color: var(--text-primary-color);
+}
+
+.review-card span {
+    color: var(--text-secondary-color);
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+}

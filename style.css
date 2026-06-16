@@ -6,7 +6,18 @@ body {
     
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
 
+.mx-40 {
+    margin: 0 40px;
+}
+
+.mx-hero {
+    margin-left: 184px;
+    margin-right: 184px;
+}
 
 header a {
 font-size: 16px;

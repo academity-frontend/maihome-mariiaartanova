@@ -1,0 +1,52 @@
+.hero-img {
+    background-image: linear-gradient(#00000080),
+    url(/img/herobackground.webp), 
+    linear-gradient(var(--background-primary-default-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.homepage {
+    text-align: center;
+    /* padding: var(--spacing-xl); */
+    width: var(--width-xl);
+    margin: 0 var(--margin-auto);
+}
+
+.homepage h1 {
+    text-align: center;
+    /* margin-bottom: var(--spacing-m); */
+    /* color: var(--text-hero-color); */
+}
+
+.homepage p {
+    /* margin-bottom: var(--spacing-xl); */
+    /* color: var(--text-hero-color); */
+}
+
+.homepage ul {
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+}
+
+.homepage ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 100;
+    /* color: var(--text-hero-color); */
+}
+.number {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
