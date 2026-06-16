@@ -59,3 +59,8 @@ color: var(--text-secondary-color);
     align-items: center;
 }
 
+.btn-more svg {
+    width: 24px;
+    height: 24px;
+}
+

@@ -2,14 +2,20 @@ header {
     display: flex;
     justify-content: center;
     padding: var(--spacing-xs) var(--spacing-l);
-    color: var(--backgroung-main-color);
-    
+    color: var(--text-hero-color);
+
 }
 
 .maihome span {
     font-weight: var(--font-weight-xl);
     font-size: var(--font-size-body);
 
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .maihome {
@@ -19,11 +25,12 @@ header {
     padding-top: var(--spacing-l);
     color: var(--text-hero-color);
 }
+
 .maihome nav {
     display: flex;
     align-items: center;
     gap: var(--spacing-xxl);
-    
+
 }
 
 .maihome nav ul {
@@ -36,5 +43,9 @@ header {
     margin: 1px;
     padding: 1px;
     color: var(--text-hero-color);
+}
+
+.maihome a {
+    white-space: nowrap;
 }
 

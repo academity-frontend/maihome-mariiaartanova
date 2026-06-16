@@ -8,7 +8,6 @@
 
 }
 
-
 .homepage {
     text-align: center;
     margin: var(--spacing-l);
@@ -19,19 +18,15 @@
 
 .homepage h1 {
     text-align: center;
-    /* margin-bottom: var(--spacing-m); */
-    /* color: var(--text-hero-color); */
-}
-
-.homepage p {
-    /* margin-bottom: var(--spacing-xl); */
     margin-bottom: var(--spacing-m);
+    color: var(--text-hero-color);
+
 
 }
 
 .homepage p {
     margin-bottom: var(--spacing-xl);
-    /* color: var(--text-hero-color); */
+    color: var(--text-hero-color);
 }
 
 .homepage ul {
@@ -46,7 +41,7 @@
     align-items: center;
     margin: 0;
     padding: 100;
-    /* color: var(--text-hero-color); */
+    color: var(--text-hero-color);
 }
 .number {
     font-size: 56px;
