@@ -1,9 +1,30 @@
+@import "styles/base/colors.css";
+@import "styles/base/tokens.css";
+@import "styles/base/typography.css";
+
+
+@import "styles/components/button.css";
+
+
+@import "styles/sections/header.css";
+@import "styles/sections/hero.css";
+@import "styles/sections/about.css";
+@import "styles/sections/services.css";
+@import "styles/sections/recommendations.css";
+@import "styles/sections/features.css";
+@import "styles/sections/faq.css";
+@import "styles/sections/submit.css";
+@import "styles/sections/footer.css";
+
+
+
+
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     list-style: none;
-    
+    margin: 0;
 }
 
 .mb-20 {
@@ -19,21 +40,7 @@ body {
     margin-right: 184px;
 }
 
-header a {
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-list-style: none;
-}
+/*  */
 
-nav ul {
-list-style: none;
-display: flex;
-gap: 40px;
-}
 
-div {
-list-style: none;
-display: flex;
-gap: 40px;
-}
+

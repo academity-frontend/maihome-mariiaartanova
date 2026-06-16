@@ -1,5 +1,7 @@
 .about-us {
     background-color: var(--text-neutral-color);
+    padding-top: var(--spacing-l);
+    padding-bottom: var(--spacing-m);
 }
 
 .about-h {

@@ -8,9 +8,11 @@
 
 }
 
+
 .homepage {
     text-align: center;
-    /* padding: var(--spacing-xl); */
+    margin: var(--spacing-l);
+    padding: var(--spacing-xl);
     width: var(--width-xl);
     margin: 0 var(--margin-auto);
 }
@@ -23,6 +25,12 @@
 
 .homepage p {
     /* margin-bottom: var(--spacing-xl); */
+    margin-bottom: var(--spacing-m);
+
+}
+
+.homepage p {
+    margin-bottom: var(--spacing-xl);
     /* color: var(--text-hero-color); */
 }
 

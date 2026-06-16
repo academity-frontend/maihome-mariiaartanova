@@ -1,0 +1,23 @@
+
+
+:root {
+    --text-primary-color: #1A1A1A;
+    --text-tertiary-color: #666666;
+    --text-secondary-color: #443C3C;
+    --text-neutral-color: #E6E6E6;
+    --text-hero-color: #FFFFFF;
+
+
+    --backgroung-main-color: #FFFFFF;
+    --backgroung-secondary-color: #F4F4F6;
+    --background-surface-stroke-color: #C8C8C8;
+    --background-surface-fill2-color: #FAFAFA;
+
+
+    --button-primary-color: #3B6DFF;
+    --button-primary-border-color: #FAFAFA;
+
+    --button-secondary-color: #E6ECFE;
+    --button-secondary-border-color: rgb(from var(--backgroung-main-color) r g b / 0.75);
+
+}
