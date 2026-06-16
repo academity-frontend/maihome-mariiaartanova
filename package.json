@@ -1,0 +1,23 @@
+{
+  "name": "maihome",
+  "version": "1.0.0",
+  "description": "maihome project ",
+  "homepage": "https://github.com/academity-frontend/maihome-mariiaartanova#readme",
+  "bugs": {
+    "url": "https://github.com/academity-frontend/maihome-mariiaartanova/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/academity-frontend/maihome-mariiaartanova.git"
+  },
+  "license": "ISC",
+  "author": "Mariia Artanova",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}
