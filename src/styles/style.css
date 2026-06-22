@@ -1,0 +1,29 @@
+@import "base/colors.css";
+@import "base/tokens.css";
+@import "base/typography.css";
+@import "base/helpers.css";
+
+
+@import "components/button.css";
+
+
+@import "sections/header.css";
+@import "sections/hero.css";
+@import "sections/about.css";
+@import "sections/services.css";
+@import "sections/recommendations.css";
+@import "sections/features.css";
+@import "sections/faq.css";
+@import "sections/submit.css";
+@import "sections/footer.css";
+
+
+/* .mx-hero {
+    margin-left: 184px;
+    margin-right: 184px;
+} */
+
+/*  */
+
+
+
