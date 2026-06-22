@@ -1,6 +1,7 @@
 @import "styles/base/colors.css";
 @import "styles/base/tokens.css";
 @import "styles/base/typography.css";
+@import "styles/base/helpers.css";
 
 
 @import "styles/components/button.css";
@@ -15,30 +16,7 @@
 @import "styles/sections/faq.css";
 @import "styles/sections/submit.css";
 @import "styles/sections/footer.css";
-@import "styles/components/img.css";
 
-
-
-
-
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    list-style: none;
-    /* margin: 0; */
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mx-40 {
-    margin: 0 40px;
-}
-
-.p-8 {
-    padding: 8px;
-}
 
 /* .mx-hero {
     margin-left: 184px;

@@ -1,29 +1,45 @@
+.container-service {
+    padding: 0 var(--p-40);
+}
 .service-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: var(--spacing-xl);
+    margin-top: 124px;
 }
 
 .service-h {
     text-align: center;
-    margin-bottom: var(--spacing-m);
+    margin-bottom: var(--mb-20);
 }
 
 .service-p {
+    margin-top: 0;
     text-align: center;
     max-width: var(--width-l);
+    margin-bottom: var(--mb-64);
 }
 
 .service-cards {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-xl);
+    margin-bottom: var(--mb-84);
+
+}
+
+.service-card:not(:last-child) {
+    margin-right: var(--mr-40);
+
 }
 
 .service-card {
     max-width: var(--width-xs);
     text-align: center;
-    padding: var(--spacing-l);
+}
+
+.service-card img{
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: var(--pb-64);
 }
 

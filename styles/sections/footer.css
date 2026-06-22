@@ -43,6 +43,45 @@ align-items: baseline;
     width: var(--width-m);
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    background-color: var(--background-instagram-color);
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    background-color: var(--background-facebook-color);
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    background-color: var(--background-twitter-color);
+    background-position: center;
+    border-radius: var(--radius-logo);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
 .footer-nav {
     display: flex;
     flex-direction: column;

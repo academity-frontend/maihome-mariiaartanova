@@ -1,19 +1,22 @@
-.recommend {
-    padding-bottom: var(--spacing-xxl);
+.container-recommend {
+    padding: 0 40px;
 }
+
+
 .recommend-header {
     display: flex;
     justify-content: space-between;
-    padding: var(--spacing-l);
+    margin-top: var(--mt-24);
+    margin-bottom: var(--mb-64);
 }
 
 .recommend-h {
     width: var(--width-l);
-    margin: 0 var(--margin-auto);
-    margin-left: var(--spacing-m);
+    margin: 0;
 }
 
 .recommend-p {
+    margin: 0;
     text-align: left;
     width: var(--width-l);
 }
@@ -23,17 +26,20 @@
     justify-content: center;
     display: flex;
     list-style: none;
+    margin-bottom: var(--mb-48);
 }
 
 .category li {
     display: inline-block;
-    padding: var(--spacing-xs);
 }
 
+.category li:not(:last-child) {
+    padding-right: var(--mr-8);
+}
 
 .cards {
-    display: flex;
-    gap: var(--spacing-sx);
+    display: block;
+    /*gap: var(--spacing-sx);*/
     justify-content: center;
 }
 
@@ -43,23 +49,39 @@
 }
 
 .cards p {
-font-size: var(--font-size-small);
-color: var(--text-secondary-color);
+    font-size: var(--font-size-small);
+    color: var(--text-secondary-color);
+}
+
+.recommend-card {
+    display: block;
+    flex-direction: column;
+    margin-right: var(--mr-20);
+    margin-bottom: var(--mr-20);
 }
 
 
-.recommend-card {
+.card__stars {
+    width: 13px;
+    height: 12px;
+
     display: flex;
-    flex-direction: column;
-    padding: var(--spacing-m);
 }
 
 .card-link {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
 }
 
-.btn-more svg {
-    width: 24px;
-    height: 24px;
+.card-image {
+    position: relative;
+    display: inline-block;
 }
+
+.card-image img {
+    display: block;
+    border-radius: 22px;
+}
+

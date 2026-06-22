@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
-import injectHTML from 'vite-plugin-html-inject';
+import posthtml from '@vituum/vite-plugin-posthtml'
 
 export default defineConfig({
-  plugins: [injectHTML()],
+  plugins: [posthtml()],
 });

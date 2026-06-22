@@ -1,6 +1,10 @@
 /* h1,h2,h3 */
- body {
-font-family: var(--font-family-main); 
+body {
+    font-family: var(--font-family-main);
+    margin: 0;
+    font-size: 24px;
+    list-style: none;
+    
 }
 
 h1 {
@@ -28,7 +32,7 @@ h3 {
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-regular);
     color: var(--text-secondary-color);
-    line-height: var(--line-height-body);    
+    line-height: var(--line-height-body);
 }
 
 
@@ -36,7 +40,3 @@ a {
     color: var(--text-hero-color);
     text-decoration: none
 }
-
-
-
-

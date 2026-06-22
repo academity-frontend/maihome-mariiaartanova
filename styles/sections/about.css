@@ -1,7 +1,14 @@
 .about-us {
     background-color: var(--text-neutral-color);
-    padding-top: var(--spacing-l);
-    padding-bottom: var(--spacing-m);
+    padding-top: var(--pt-80);
+    padding-bottom: var(--pb-40);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-about {
+    padding: 0 40px;
+    /*max-width: 1360px;*/
 }
 
 .about-h {
@@ -9,7 +16,7 @@
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-body);
     min-width: var(--width-xs);
-    padding-left: var(--spacing-l);
+    margin: 0;
 }
 
 .about-top {
@@ -17,20 +24,22 @@
     flex-direction: column;
     color: var(--text-tertiary-color);
     font-weight: var(--font-weight-regular);
-
 }
 
 .about-p {
     max-width: var(--width-xl);
-    margin: 0;
     font-size: var(--font-size-h3);
     color: var(--text-tertiary-color);
+    margin: 0;
+    margin-bottom: var(--mb-20);
 
 }
 
 .about-us ul {
     font-size: var(--font-size-h3);
     line-height: var(--line-height-body);
+    margin: 0;
+    margin-bottom: var(--mb-48);
 }
 
 .about-us span {
@@ -38,10 +47,22 @@
     color: var(--text-primary-color);
 }
 
+figure {
+    margin: 0;
+}
+
 .about-bottom {
     display: flex;
-    gap: var(--spacing-l);
+    gap: 20px;
     justify-content: center;
+    margin: 0;
+}
+
+.about-bottom img {
+    border-radius: var(--radius-xl);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-right: var(--mr-20);
 }
 
 .review-card {
@@ -50,7 +71,6 @@
     border-radius: 40px;
     max-width: 500px;
     text-align: center;
-    margin-left: auto;
 }
 
 .review-card blockquote {
@@ -68,10 +88,13 @@
 
 /*   */
 
+.about__img {
+    margin-top: 24px;
+}
+
 .review-card figcaption p {
     font-size: 20px;
     text-align: center;
-    margin: 20px auto;
     font-weight: 500;
     color: var(--text-primary-color);
 }
@@ -82,3 +105,6 @@
     font-size: 16px;
     line-height: 18px;
 }
+
+
+

@@ -1,8 +1,19 @@
-header {
+.header-hero {
     display: flex;
     justify-content: center;
     padding: var(--spacing-xs) var(--spacing-l);
     color: var(--text-hero-color);
+
+    background: var(--background-header-color);
+    /*padding-top: 24px;*/
+    /*padding-left: 184px;*/
+    /*padding-right: 184px;*/
+    border-radius: var(--radius-xl);
+    width: 1072px;
+    height: 59px;
+    /*margin: auto;*/
+
+    margin: 24px 184px 107px 184px;
 
 }
 
@@ -15,9 +26,11 @@ header {
 .header-logo {
     display: flex;
     align-items: center;
-    gap: 8px;
 }
 
+.maihome img {
+    padding-right: 12px;
+}
 .maihome {
     display: flex;
     align-items: center;
@@ -29,7 +42,7 @@ header {
 .maihome nav {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xxl);
+    /*gap: var(--spacing-xxl);*/
 
 }
 
@@ -48,3 +61,8 @@ header {
 .maihome a {
     white-space: nowrap;
 }
+
+
+
+
+

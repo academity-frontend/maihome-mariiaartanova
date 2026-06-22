@@ -19,7 +19,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "vite": "^8.0.16",
-    "vite-plugin-html-inject": "^1.1.2"
+    "@vituum/vite-plugin-posthtml": "^2.0.1",
+    "vite": "^8.0.16"
   }
 }

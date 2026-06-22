@@ -45,4 +45,34 @@
     
 
     --margin-auto: auto;
+
+
+    /* spaces and positioning */
+
+    --mb-20: 20px;
+    --mb-48: 48px;
+    --mb-56: 56px;
+    --mb-64: 64px;
+    --mb-84: 84px;
+    --mb-124: 124px;
+
+
+
+    --mt-24: 24px;
+    --mt-84: 84px;
+
+    --mr-8: 8px;
+    --mr-20: 20px;
+    --mr-40: 40px;
+
+
+    --p-40: 40px;
+    --pt-80: 80px;
+
+    --pb-40: 40px;
+    --pb-64: 64px;
+    --pb-80: 80px;
+    --pb-100: 100px;
+
+
 }

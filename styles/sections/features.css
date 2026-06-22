@@ -1,8 +1,6 @@
 .features {
     background-color: var(--backgroung-secondary-color);
-    padding-top: var(--spacing-l);
-    padding-bottom: var(--spacing-l);
-
+    padding: 0 var(--p-40);
 }
 
 .features header {
@@ -14,6 +12,7 @@
 .features-h {
     text-align: center;
     margin: 0 var(--margin-auto);
+    margin-top: var(--mt-84);
 }
 
 .features-p {
@@ -25,13 +24,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    padding-bottom: var(--pb-80);
+
+
 }
 
 .features-card {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     text-align: center;
     width: var(--width-m);
 }
+
+.features-card img {
+}
+

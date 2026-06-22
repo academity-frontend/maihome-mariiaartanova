@@ -8,12 +8,12 @@
     border-radius: var(--radius-xl);
 }
 
-
-
 .btn-primary {
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-primary-color);
     color: var(--backgroung-main-color);
+    padding: 16px 35px;
+    margin: 0;
 }
 
 .btn-primary:hover {
@@ -28,6 +28,7 @@
     border: 1px solid var(--button-secondary-border-color);
     background-color: var(--button-secondary-color);
     color: var(--text-secondary-color);
+    padding: 16px 24px;
 }
 
 .btn-secondary:hover {
@@ -40,9 +41,7 @@
 }
 
 .btn-arrow-down {
-    padding: var(--spacing-s);
-    margin-top: var(--spacing-l);
-    margin-bottom: var(--spacing-xxxl);
+    margin-bottom: 184px;
     border: 1px solid var(--background-surface-stroke-color);
     background-color: var(--backgroung-main-color);
     width: 48px;
@@ -52,8 +51,6 @@
     align-items: center;
 }
 
-
-
 .btn-arrow-down:hover {
     color: var(--btn-hover);
     border-color: var(--btn-hover);
@@ -62,13 +59,6 @@
 .btn-arrow-down:active {
     color: var(--btn-active);
     border-color: var(--btn-active);
-}
-
-.service-cards img {
-    background-size: var(--font-size-h1);
-    background-color: var(--background-primary-default-color);
-    border-radius: 1px var(--border-color);
-
 }
 
 .btn-category {
@@ -95,16 +85,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
 }
+
 
 .btn-more {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin: 0 auto;
     font-size: var(--font-size-p);
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-secondary-color);
     color: var(--text-primary-color);
+    margin-bottom: var(--mb-124);
+}
+
+.btn-more img {
+    padding: 8px;
 }
 
 .btn-more:hover {
