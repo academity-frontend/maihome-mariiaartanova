@@ -18,10 +18,21 @@
 @import "styles/sections/footer.css";
 
 
-/* .mx-hero {
-    margin-left: 184px;
-    margin-right: 184px;
-} */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container.container--narrow {
+    max-width: 1072px;
+    padding-inline: 24px;
+}
+
 
 /*  */
 
