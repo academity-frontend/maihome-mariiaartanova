@@ -40,6 +40,11 @@
     color: var(--text-active-primary-color);
 }
 
+.btn--small {
+    font-size: var(--font-size-small);
+    padding: 8px 24px;
+}
+
 .btn-arrow-down {
     margin-bottom: 184px;
     border: 1px solid var(--background-surface-stroke-color);

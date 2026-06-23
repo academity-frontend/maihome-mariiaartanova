@@ -1,20 +1,32 @@
-<div class="container-hero">
-    <div class="hero-img">
+<section class="homepage">
+    <div class="homepage__wrapper container container--narrow">
         <include src="src/templates/header.html"></include>
 
-        <section class="homepage">
-            <h1>Dream Home Discovery: Browse Premier Listings Today!</h1>
-            <p class="p">Embark on a journey to discover your dream home by exploring our premier listings available for
+        <div class="homepage__content">
+            <h1 class="homepage__heading">Dream Home Discovery: Browse Premier Listings Today!</h1>
+            <p class="homepage__description">Embark on a journey to discover your dream home by exploring our premier
+                listings available for
                 browsing
                 today.
             </p>
-            <button class="btn btn-arrow-down"><img src="src/img/scrolldown.svg"></button>
+            <button class="homepage__cta btn btn-arrow-down">
+                <img class="homepage__cta-icon" src="src/img/scrolldown.svg">
+            </button>
 
-            <ul>
-                <li><span class="number">432</span><span class="text">Partners</span></li>
-                <li><span class="number">12,6K</span><span class="text">Properties</span></li>
-                <li><span class="number">80K</span><span class="text">Customers</span></li>
+            <ul class="homepage__stats">
+                <li class="homepage__stats-item">
+                    <span class="homepage__stats-number">432</span
+                    <span class="homepage__stats-text">Partners</span>
+                </li>
+                <li class="homepage__stats-item">
+                    <span class="homepage__stats-number">12,6K</span>
+                    <span class="homepage__stats-text">Properties</span>
+                </li>
+                <li class="homepage__stats-item">
+                    <span class="homepage__stats-number">80K</span>
+                    <span class="homepage__stats-text">Customers</span>
+                </li>
             </ul>
-        </section>
+        </div>
     </div>
-</div>
+</section>
