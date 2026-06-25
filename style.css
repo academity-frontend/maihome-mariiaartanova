@@ -8,7 +8,7 @@
 
 
 @import "styles/sections/header.css";
-@import "styles/sections/hero.css";
+@import "styles/sections/homepage.css";
 @import "styles/sections/about.css";
 @import "styles/sections/services.css";
 @import "styles/sections/recommendations.css";
@@ -18,10 +18,25 @@
 @import "styles/sections/footer.css";
 
 
-/* .mx-hero {
-    margin-left: 184px;
-    margin-right: 184px;
-} */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-inline: 40px;
+}
+
+.container.container--narrow {
+    max-width: 1072px;
+    padding-inline: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
 
 /*  */
 

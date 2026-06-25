@@ -1,0 +1,64 @@
+.homepage {
+    background-image: linear-gradient(#00000080),
+    url(/img/herobackground.webp),
+    linear-gradient(var(--background-primary-default-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--text-hero-color);
+
+    max-width: 100%;
+    margin: 0;
+
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+
+.homepage__content {
+    text-align: center;
+}
+
+.homepage__heading {
+
+}
+
+.homepage__description {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: var(--mb-184);
+}
+
+.homepage__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 590px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.homepage__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.homepage__list-number {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage__list-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
