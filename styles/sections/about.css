@@ -4,44 +4,31 @@
     padding-top: var(--pt-80);
     padding-bottom: var(--pb-48);
 
-    /*width: 100%;*/
     margin: 0;
 
 }
 
 .about__wrapper {
-}
-.about__top {
-    display: inline-block;
-    vertical-align: top;
-    gap: 40px;
-
+    display: flex;
+    gap: 20px;
 }
 
 .about__heading {
     font-weight: var(--font-weight-medium);
     color: var(--text-primary-color);
-    text-align: left;
     font-size: var(--font-size-body);
     line-height: var(--line-height-body);
-    margin-right: 120px;
 
-    display: inline-block;
-    vertical-align: top;
-
-    /*max-width: 180px;*/
-    /*margin: 0;*/
+    min-width: 214px;
+    margin: 0;
 }
-
 
 .about__content {
 
     color: var(--text-tertiary-color);
     font-weight: var(--font-weight-regular);
 
-
-    max-width: 1130px;
-    display: block;
+    /*max-width: 1130px;*/
 }
 
 .about__description {
@@ -54,53 +41,50 @@
     font-size: var(--font-size-h3);
     line-height: var(--line-height-body);
     margin: 0;
-    /*margin-left: 30px;*/
+    padding-bottom: var(--pb-48);
+
 }
 
-.about__bottom {
+.about__list-item {
+    margin-left: 52px;
+}
+
+.about__review {
+    margin: 0;
+    padding: 0;
+
     display: flex;
     gap: 20px;
-    justify-content: space-between;
-    margin: 0;
 }
 
-.about__bottom-icon {
+.about__review-image {
+    width: calc( 50% - 10px );
     border-radius: var(--radius-xl);
-    background-repeat: no-repeat;
     object-fit: cover;
 }
 
 .about__review-card {
     background: var(--backgroung-main-color);
-    padding: 32px 24px;
-    border-radius: 32px;
-    max-width: 548px;
     text-align: center;
-    margin: 0;
 
-}
-
-.about__review-card blockquote {
+    padding: 32px 24px;
+    border-radius: var(--radius-xl);
     margin: 0;
 }
 
 .about__review-description {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
+    color: var(--text-primary-color);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-p);
+    line-height: var(--line-height-body);
     margin: 0;
 }
 
-/*   */
-
-.about__review-author {
-    margin-top: 24px;
-}
 
 .about__review-name {
-    font-size: 20px;
+    font-size: var(--font-size-p);
     text-align: center;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     color: var(--text-primary-color);
     margin: 0;
 }
@@ -108,7 +92,7 @@
 .about__review-position {
     color: var(--text-secondary-color);
     text-align: center;
-    font-size: 16px;
+    font-size: var(--font-size-small);
     line-height: 18px;
     margin: 0;
 }
