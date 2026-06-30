@@ -1,6 +1,6 @@
 .homepage {
     background-image: linear-gradient(#00000080),
-    url(/img/herobackground.webp),
+    url(/src/img/herobackground.webp),
     linear-gradient(var(--background-primary-default-color));
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: var(--mb-184);
+    color: var(--text-hero-color);
 }
 
 .homepage__list {

@@ -1,21 +1,21 @@
-@import "styles/base/colors.css";
-@import "styles/base/tokens.css";
-@import "styles/base/typography.css";
-@import "styles/base/helpers.css";
+@import "src/styles/base/colors.css";
+@import "src/styles/base/tokens.css";
+@import "src/styles/base/typography.css";
+@import "src/styles/base/helpers.css";
 
 
-@import "styles/components/button.css";
+@import "src/styles/components/button.css";
 
 
-@import "styles/sections/header.css";
-@import "styles/sections/homepage.css";
-@import "styles/sections/about.css";
-@import "styles/sections/services.css";
-@import "styles/sections/recommendations.css";
-@import "styles/sections/features.css";
-@import "styles/sections/faq.css";
-@import "styles/sections/submit.css";
-@import "styles/sections/footer.css";
+@import "src/styles/sections/header.css";
+@import "src/styles/sections/homepage.css";
+@import "src/styles/sections/about.css";
+@import "src/styles/sections/services.css";
+@import "src/styles/sections/recommendations.css";
+@import "src/styles/sections/features.css";
+@import "src/styles/sections/faq.css";
+@import "src/styles/sections/submit.css";
+@import "src/styles/sections/footer.css";
 
 
 ul {
