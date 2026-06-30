@@ -1,10 +1,8 @@
 .btn {
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
-    line-height: var(--line-height-body);
     cursor: pointer;
     transition: 0.3s;
-    padding: var(--spacing-s) var(--spacing-m);
     border-radius: var(--radius-xl);
 }
 
@@ -12,8 +10,9 @@
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-primary-color);
     color: var(--backgroung-main-color);
-    padding: 16px 35px;
     margin: 0;
+    min-width: 112px;
+    padding: 12px 24px;
 }
 
 .btn-primary:hover {
@@ -28,7 +27,8 @@
     border: 1px solid var(--button-secondary-border-color);
     background-color: var(--button-secondary-color);
     color: var(--text-secondary-color);
-    padding: 16px 24px;
+    min-width: 112px;
+
 }
 
 .btn-secondary:hover {
@@ -48,11 +48,12 @@
     margin-bottom: 184px;
     border: 1px solid var(--background-surface-stroke-color);
     background-color: var(--backgroung-main-color);
-    width: 48px;
-    height: 77px;
+    padding: 26px 12px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    color: #000000;
+
 }
 
 .btn-arrow-down:hover {
@@ -65,10 +66,14 @@
     border-color: var(--btn-active);
 }
 
+/*//*/
+
 .btn-category {
     border: 1px solid var(--button-secondary-border-color);
     background-color: var(--background-surface-fill2-color);
     color: var(--text-secondary-color);
+    min-width: 112px;
+    padding: 12px 24px;
 }
 
 .btn-category:hover {
@@ -95,20 +100,22 @@
     right: 8px;
 }
 
+/*//*/
 
-.btn-more {
+.recommend__btn {
+    min-width: 182px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+
+}
+.btn-more {
+    text-align: center;
     margin: 0 auto;
     font-size: var(--font-size-p);
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-secondary-color);
     color: var(--text-primary-color);
-    margin-bottom: var(--mb-124);
-}
-
-.btn-more img {
-    padding: 8px;
+    padding: 12px 28px;
 }
 
 .btn-more:hover {
@@ -121,11 +128,8 @@
     color: var(--text-active-primary-color);
 }
 
+/*//*/
 
 
-/* 
-<div>
-<button class="button-icon">
-<img src="/img/icon-arrow.svg" alt="icon-arrow">
-</button>
-</div> */
+
+
