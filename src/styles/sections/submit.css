@@ -31,7 +31,7 @@
         linear-gradient(270deg,
             #3B6DFFA6 65%,
             #000000F2 95%),
-        url(/img/leavingroom.webp);
+        url(/src/img/leavingroom.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
