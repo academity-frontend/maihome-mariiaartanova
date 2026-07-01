@@ -1,11 +1,8 @@
 .about {
     background-color: var(--text-neutral-color);
-
-    padding-top: var(--pt-80);
-    padding-bottom: var(--pb-48);
-
+    padding-top: var(--spacing-80);
+    padding-bottom: var(--spacing-48);
     margin: 0;
-
 }
 
 .about__wrapper {
@@ -24,25 +21,21 @@
 }
 
 .about__content {
-
     color: var(--text-tertiary-color);
     font-weight: var(--font-weight-regular);
-
-    /*max-width: 1130px;*/
 }
 
 .about__description {
     font-size: var(--font-size-h3);
     margin: 0;
-    padding-bottom: var(--pb-20);
+    padding-bottom: var(--spacing-20);
 }
 
 .about__list {
     font-size: var(--font-size-h3);
     line-height: var(--line-height-body);
     margin: 0;
-    padding-bottom: var(--pb-48);
-
+    padding-bottom: var(--spacing-48);
 }
 
 .about__list-item {
@@ -52,7 +45,6 @@
 .about__review {
     margin: 0;
     padding: 0;
-
     display: flex;
     gap: 20px;
 }
@@ -66,8 +58,7 @@
 .about__review-card {
     background: var(--backgroung-main-color);
     text-align: center;
-
-    padding: 32px 24px;
+    padding: var(--spacing-32) var(--spacing-24);
     border-radius: var(--radius-xl);
     margin: 0;
 }
@@ -79,7 +70,6 @@
     line-height: var(--line-height-body);
     margin: 0;
 }
-
 
 .about__review-name {
     font-size: var(--font-size-p);

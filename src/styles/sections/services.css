@@ -8,9 +8,8 @@
 }
 
 .service__top {
-    margin-left: 184px;
-    margin-right: 184px;
-
+    margin-left: var(--spacing-184);
+    margin-right: var(--spacing-184);
 }
 
 .service__header {
@@ -20,13 +19,13 @@
 .service__description {
     text-align: center;
     margin: 0;
-    margin-bottom: 64px;
+    margin-bottom: var(--spacing-64);
 }
 
 .service__cards {
     display: flex;
     gap: 40px;
-    margin-bottom: 84px;
+    margin-bottom: var(--spacing-84);
 }
 
 .service__card-icon:not(:last-child) {
@@ -35,17 +34,17 @@
 
 .service__cards-title {
     margin: 0;
-    padding-bottom: 12px;
+    padding-bottom: var(--spacing-12);
 }
 
 .service__cards-description {
     margin: 0;
-    padding-bottom: 32px;
+    padding-bottom: var(--spacing-32);
 }
 
 .service__card-image {
     object-fit: cover;
     object-position: center;
-    padding-bottom: var(--pb-64);
+    padding-bottom: var(--spacing-64);
 }
 
