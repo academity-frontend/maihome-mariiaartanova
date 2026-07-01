@@ -42,7 +42,7 @@
 
 .btn--small {
     font-size: var(--font-size-small);
-    padding: 8px 24px;
+    padding:var(--spacing-8) 24px;
 }
 .btn-arrow-down {
     margin-bottom: 184px;
@@ -96,8 +96,8 @@
     align-items: center;
 
     position: absolute;
-    bottom: 8px;
-    right: 8px;
+    bottom:var(--spacing-8);
+    right:var(--spacing-8);
 }
 
 /*//*/

@@ -7,13 +7,13 @@
 }
 
 .mr-8 {
-    margin-right: 8px;
+    margin-right:var(--spacing-8);
 }
 
 .p-8 {
-    padding: 8px;
+    padding:var(--spacing-8);
 }
 
 .pr-8 {
-    padding-right: 8px;
+    padding-right:var(--spacing-8);
 }
