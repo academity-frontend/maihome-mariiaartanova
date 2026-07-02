@@ -1,210 +1,278 @@
-<div class="container-recommend">
-    <section class="recommend">
-        <header class="recommend-header">
-            <h2 class="recommend-h">Real Estate Recommendation Of The Day</h2>
-            <p class="p recommend-p">Introducing our daily feature: 'Real Estate Recommendation of the Day.' Explore
-                carefully curated
-                listings to find your perfect property match and make informed decisions effortlessly
-            </p>
-        </header>
+<section class="recommend__wrapper container">
+    <header class="recommend__header">
+        <h2 class="recommend__header-title">
+            Real Estate Recommendation Of The Day
+        </h2>
+        <p class="recommend__header-description">
+            Introducing our daily feature: 'Real Estate Recommendation of the Day.'
+            Explore
+            carefully curated
+            listings to find your perfect property match and make informed decisions effortlessly
+        </p>
+    </header>
 
-        <ul class="category">
-            <li>
-                <button class="btn btn-primary">All (40+)</button>
-            </li>
-            <li>
-                <button class="btn btn-category">Home (6)</button>
-            </li>
-            <li>
-                <button class="btn btn-category">Apartment (14)</button>
-            </li>
-            <li>
-                <button class="btn btn-category">Guesthouse (8)</button>
-            </li>
-            <li>
-                <button class="btn btn-category">Hotel (12)</button>
-            </li>
-        </ul>
+    <ul class="recommend__category">
+        <li class="recommend__category-list">
+            <button class="recommend__category-list-btn btn btn-primary">
+                All (40+)
+            </button>
+        </li>
+        <li class="recommend__category-list">
+            <button class=" recommend__category-list-btn btn btn-category">
+                Home (6)
+            </button>
+        </li>
+        <li class="recommend__category-list">
+            <button class="recommend__category-list-btn btn btn-category">
+                Apartment (14)
+            </button>
+        </li>
+        <li class="recommend__category-list">
+            <button class="recommend__category-list-btn btn btn-category">
+                Guesthouse (8)
+            </button>
+        </li>
+        <li class="recommend__category-list">
+            <button class="recommend__category-list-btn btn btn-category">
+                Hotel (12)
+            </button>
+        </li>
+    </ul>
 
-        <div class="cards">
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-one.webp" alt="DreamlandEstates">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Dreamland Estates</h3>
-                    <p>(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg"
-                         alt="location pin"
-                         width="10" height="13px">
-                    St. Utica, Pennsylvania 57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg"
-                         alt="RatingStars">
-                    <p>4,8/5</p>
+    <div class="recommend__cards">
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-one.webp"
+                         alt="DreamlandEstates">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
                 </div>
-            </article>
-
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-two.webp" alt="VisionaryVistasRealty">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Visionary Vistas Realty</h3>
-                    <p>(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg"
-                         alt="location pin"
-                         width="10"
-                         height="13px">
-                    St. Utica, Pennsylvania 57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg"
-                         alt="RatingStars">
-                    <p>4,8/5</p>
-                </div>
-            </article>
-
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-three.webp" alt="TranquilHavenHomes">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Tranquil Haven Homes</h3>
-                    <p>(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg"
-                         alt="location pin"
-                         width="10" height="13px">
-                    St. Utica, Pennsylvania 57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg" alt="RatingStars">
-                    <p>4,8/5</p>
-                </div>
-            </article>
-
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-four.webp" alt="MeadowBrookEstates">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Meadow Brook Estates</h3>
-                    <p>(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg" alt="location pin"
-                         width="10"
-                         height="13px">
-                    St. Utica, Pennsylvania 57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg"
-                         alt="RatingStars">
-                    <p>4,8/5</p>
-                </div>
-            </article>
-
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-five.webp" alt="AspenRidgeEstates">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Aspen Ridge Estates</h3>
-                    <p>(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg"
-                         alt="location pin"
-                         width="10"
-                         height="13px">
-                    St. Utica, Pennsylvania 57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg"
-                         alt="RatingStars">
-                    <p>4,8/5</p>
-                </div>
-            </article>
-
-
-            <article class="recommend-card">
-                <a href="#" class="card-link">
-                    <div class="card-image">
-                        <img src="src/img/room-six.webp" alt="HarmonyHillsRealty">
-                        <a class="btn btn-arrow">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
-                                      fill="white"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3>Harmony Hills Realty</h3>
-                    <p class="p">(-41%) $611,520</p>
-                </a>
-                <p>
-                    <img src="src/img/location-pin.svg" alt="location pin" width="10" height="13px">St. Utica, Pennsylvania
-                    57867
-                </p>
-                <div class="card__stars">
-                    <img src="src/img/stars.svg" alt="RatingStars">
-                    <p>4,8/5</p>
-                </div>
-            </article>
-        </div>
-        <div class="recommend__btn">
-            <a class="btn btn-more">Learn More
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.5004 0.75V10.5C13.5004 10.6989 13.4214 10.8897 13.2807 11.0303C13.1401 11.171 12.9493 11.25 12.7504 11.25C12.5515 11.25 12.3607 11.171 12.2201 11.0303C12.0794 10.8897 12.0004 10.6989 12.0004 10.5V2.56031L1.28104 13.2806C1.14031 13.4214 0.94944 13.5004 0.750417 13.5004C0.551394 13.5004 0.360523 13.4214 0.219792 13.2806C0.0790615 13.1399 0 12.949 0 12.75C0 12.551 0.0790615 12.3601 0.219792 12.2194L10.9401 1.5H3.00042C2.8015 1.5 2.61074 1.42098 2.47009 1.28033C2.32943 1.13968 2.25042 0.948912 2.25042 0.75C2.25042 0.551088 2.32943 0.360322 2.47009 0.21967C2.61074 0.0790178 2.8015 0 3.00042 0H12.7504C12.9493 0 13.1401 0.0790178 13.2807 0.21967C13.4214 0.360322 13.5004 0.551088 13.5004 0.75Z" fill="currentColor"/>
-                </svg>
             </a>
-        </div>
-    </section>
-</div>
+            <div class="recommend__card-bottom">
+                <h3 class="recommend__card-title">Dreamland Estates</h3>
+                <p class="recommend__card-price">(-41%) $611,520</p>
+                <div class="recommend__card-location-icon">
+                    <img class="recommend__card-location-pin"
+                         src="src/img/location-pin.svg"
+                         alt="location pin"
+                         width="10"
+                         height="13">
+                    <span class="recommend__card-location">
+                        St. Utica, Pennsylvania 57867
+                    </span>
+                </div>
+                <div class="recommend__card-rating-stars">
+                    <img class="recommend__card-rating-image"
+                         src="src/img/stars.svg"
+                         alt="Rating Stars">
+                    <span class="recommend__card-rating-value">
+                        4,8/5
+                 </span>
+                </div>
+            </div>
+        </article>
+
+
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-two.webp"
+                         alt="Visionary Vistas Realty">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
+
+                </div>
+            </a>
+            <h3 class="recommend__card-title">Visionary Vistas Realty</h3>
+            <p class="recommend__card-price">(-41%) $611,520</p>
+            <div class="recommend__card-location-icon">
+                <img class="recommend__card-location-pin"
+                     src="src/img/location-pin.svg"
+                     alt="location pin"
+                     width="10"
+                     height="13">
+                <span class="recommend__card-location">
+                        Cir. Shiloh, Hawaii 81063
+                    </span>
+            </div>
+            <div class="recommend__card-rating-stars">
+                <img class="recommend__card-rating-image"
+                     src="src/img/stars.svg"
+                     alt="Rating Stars">
+                <span class="recommend__card-rating-value">
+                        4,8/5
+                    </span>
+            </div>
+        </article>
+
+
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-three.webp"
+                         alt="Tranquil Haven Homes">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
+
+                </div>
+            </a>
+            <h3 class="recommend__card-title">Tranquil Haven Homes</h3>
+            <p class="recommend__card-price">(-41%) $611,520</p>
+            <div class="recommend__card-location-icon">
+                <img class="recommend__card-location-pin"
+                     src="src/img/location-pin.svg"
+                     alt="location pin"
+                     width="10"
+                     height="13">
+                <span class="recommend__card-location">
+                        St. Celina, Delaware 10299
+                    </span>
+            </div>
+            <div class="recommend__card-rating-stars">
+                <img class="recommend__card-rating-image"
+                     src="src/img/stars.svg"
+                     alt="Rating Stars">
+                <span class="recommend__card-rating-value">
+                        4,8/5
+                    </span>
+            </div>
+        </article>
+
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-four.webp"
+                         alt="Meadow Brook Estates">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
+
+                </div>
+            </a>
+            <h3 class="recommend__card-title">Meadow Brook Estates</h3>
+            <p class="recommend__card-price">(-41%) $611,520</p>
+            <div class="recommend__card-location-icon">
+                <img class="recommend__card-location-pin"
+                     src="src/img/location-pin.svg"
+                     alt="location pin"
+                     width="10"
+                     height="13">
+                <span class="recommend__card-location">
+                        St. Utica, Pennsylvania 57867
+                    </span>
+            </div>
+            <div class="recommend__card-rating-stars">
+                <img class="recommend__card-rating-image"
+                     src="src/img/stars.svg"
+                     alt="Rating Stars">
+                <span class="recommend__card-rating-value">
+                        4,8/5
+                    </span>
+            </div>
+        </article>
+
+
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-five.webp"
+                         alt="Aspen Ridge Estates">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
+                </div>
+            </a>
+            <h3 class="recommend__card-title">Aspen Ridge Estates</h3>
+            <p class="recommend__card-price">(-41%) $611,520</p>
+            <div class="recommend__card-location-icon">
+                <img class="recommend__card-location-pin"
+                     src="src/img/location-pin.svg"
+                     alt="location pin"
+                     width="10"
+                     height="13">
+                <span class="recommend__card-location">
+                        St. Utica, Pennsylvania 57867
+                    </span>
+            </div>
+            <div class="recommend__card-rating-stars">
+                <img class="recommend__card-rating-image"
+                     src="src/img/stars-4,0.svg"
+                     alt="Rating Stars">
+                <span class="recommend__card-rating-value">
+                        4,0/5
+                    </span>
+            </div>
+        </article>
+
+
+        <article class="recommend__card">
+            <a href="#" class="recommend__card-item-link">
+                <div class="recommend__card-item-wrapper">
+                    <img class="recommend__card-image"
+                         src="src/img/room-six.webp"
+                         alt="Harmony Hills Realty">
+                    <svg class="recommend__card-button btn btn-arrow" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7482 6.00024V15.7502C18.7482 15.9492 18.6692 16.1399 18.5286 16.2806C18.3879 16.4212 18.1971 16.5002 17.9982 16.5002C17.7993 16.5002 17.6085 16.4212 17.4679 16.2806C17.3272 16.1399 17.2482 15.9492 17.2482 15.7502V7.81056L6.52885 18.5309C6.38811 18.6716 6.19724 18.7507 5.99822 18.7507C5.7992 18.7507 5.60833 18.6716 5.46759 18.5309C5.32686 18.3901 5.2478 18.1993 5.2478 18.0002C5.2478 17.8012 5.32686 17.6103 5.46759 17.4696L16.1879 6.75024H8.24822C8.04931 6.75024 7.85854 6.67123 7.71789 6.53057C7.57724 6.38992 7.49822 6.19916 7.49822 6.00024C7.49822 5.80133 7.57724 5.61057 7.71789 5.46991C7.85854 5.32926 8.04931 5.25024 8.24822 5.25024H17.9982C18.1971 5.25024 18.3879 5.32926 18.5286 5.46991C18.6692 5.61057 18.7482 5.80133 18.7482 6.00024Z"
+                              fill="white"/>
+                    </svg>
+
+                </div>
+            </a>
+            <h3 class="recommend__card-title">Harmony Hills Realty</h3>
+            <p class="recommend__card-price">(-41%) $611,520</p>
+            <div class="recommend__card-location-icon">
+                <img class="recommend__card-location-pin"
+                     src="src/img/location-pin.svg"
+                     alt="location pin"
+                     width="10"
+                     height="13">
+                <span class="recommend__card-location">
+                        St. Utica, Pennsylvania 57867
+                    </span>
+            </div>
+            <div class="recommend__card-rating-stars">
+                <img class="recommend__card-rating-image"
+                     src="src/img/stars.svg"
+                     alt="Rating Stars">
+                <span class="recommend__card-rating-value">
+                        4,8/5
+                    </span>
+            </div>
+        </article>
+
+    </div>
+    <div class="recommend__cards-bottom">
+        <a class="recommend__cards-bottom-action btn btn-more">Learn More
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5004 0.75V10.5C13.5004 10.6989 13.4214 10.8897 13.2807 11.0303C13.1401 11.171 12.9493 11.25 12.7504 11.25C12.5515 11.25 12.3607 11.171 12.2201 11.0303C12.0794 10.8897 12.0004 10.6989 12.0004 10.5V2.56031L1.28104 13.2806C1.14031 13.4214 0.94944 13.5004 0.750417 13.5004C0.551394 13.5004 0.360523 13.4214 0.219792 13.2806C0.0790615 13.1399 0 12.949 0 12.75C0 12.551 0.0790615 12.3601 0.219792 12.2194L10.9401 1.5H3.00042C2.8015 1.5 2.61074 1.42098 2.47009 1.28033C2.32943 1.13968 2.25042 0.948912 2.25042 0.75C2.25042 0.551088 2.32943 0.360322 2.47009 0.21967C2.61074 0.0790178 2.8015 0 3.00042 0H12.7504C12.9493 0 13.1401 0.0790178 13.2807 0.21967C13.4214 0.360322 13.5004 0.551088 13.5004 0.75Z"
+                      fill="currentColor"/>
+            </svg>
+        </a>
+    </div>
+</section>

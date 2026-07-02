@@ -1,39 +1,35 @@
 .submit {
-    padding-top: var(--spacing-l);
     display: flex;
     justify-content: space-between;
-}
 
-.submit header {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    width: var(--width-m);
-}
-
-.submit-h {
-    padding-top: var(--spacing-m);
-    margin-bottom: var(--spacing-xs);
-    color: var(--text-hero-color);
-}
-
-.submit-p {
-    text-align: left;
-    white-space: normal;
-    width: var(--width-m);
-    margin: var(--spacing-xs);
-    margin-bottom: var(--spacing-l);
-    color: var(--text-hero-color);
-}
-
-.submit {
     background-image:
-        linear-gradient(270deg,
+            linear-gradient(270deg,
             #3B6DFFA6 65%,
             #000000F2 95%),
-        url(/src/img/leavingroom.webp);
+            url(/src/img/leavingroom.webp);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
+.submit__wrapper{
+    margin-top: var(--spacing-60);
+}
+
+.submit__header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.submit__title {
+    padding-top: var(--spacing-24);
+    margin-bottom: var(--spacing-8);
+    color: var(--text-hero-color);
+}
+
+.submit__description {
+    text-align: left;
+    margin: var(--spacing-8);
+    margin-bottom: var(--spacing-40);
+    color: var(--text-hero-color);
+}
 
