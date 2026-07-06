@@ -8,8 +8,8 @@
 }
 
 .service__top {
-    margin-left: var(--spacing-184);
-    margin-right: var(--spacing-184);
+    margin-left: var(--spacing-8xl);
+    margin-right: var(--spacing-8xl);
 }
 
 .service__header {
@@ -19,13 +19,13 @@
 .service__description {
     text-align: center;
     margin: 0;
-    margin-bottom: var(--spacing-64);
+    margin-bottom: var(--spacing-5xl);
 }
 
 .service__cards {
     display: flex;
     gap: 40px;
-    margin-bottom: var(--spacing-84);
+    margin-bottom: var(--spacing-7xl);
 }
 
 .service__card-icon:not(:last-child) {
@@ -34,17 +34,17 @@
 
 .service__cards-title {
     margin: 0;
-    padding-bottom: var(--spacing-12);
+    padding-bottom: var(--spacing-2xs);
 }
 
 .service__cards-description {
     margin: 0;
-    padding-bottom: var(--spacing-32);
+    padding-bottom: var(--spacing-l);
 }
 
 .service__card-image {
     object-fit: cover;
     object-position: center;
-    padding-bottom: var(--spacing-64);
+    padding-bottom: var(--spacing-5xl);
 }
 

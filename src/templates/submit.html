@@ -1,19 +1,66 @@
-<section class="submit">
-    <div class="submit__wrapper container">
-        <header class="submit__header">
-            <h2 class="submit__title">Start Your Real Estate Journey Here</h2>
-            <p class="submit__description">Embark on your real estate journey today. Explore our listings and find the
-                perfect
-                property to call
-                home.</p>
-        </header>
-        <div class="submit__images-container">
-            <img src="src/img/man-smile.webp"
-                 alt="smile man">
-            <img src="src/img/man-back-grey.svg"
-                 alt="background">
-            <img src="src/img/man-back-white.png"
-                 alt="background">
-        </div>
+<section class="contact-us">
+    <div class="contact-us__wrapper container">
+        <form class="contact-form" action="#" method="post">
+            <div class="contact-form__wrapper">
+                <h1 class="contact-form__title">Start Your Real Estate Journey Here</h1>
+                <p class="contact-form__description">Embark on your real estate journey today. Explore our listings and
+                    find the perfect property to call
+                    home.
+                </p>
+            </div>
+            <div class="contact-form__checkbox-wrapper">
+                <label class="contact-form__label">
+                    <input class="contact-form__name contact-form__container"
+                           type="text"
+                           name="name"
+                           placeholder="Your name"
+                    />
+                </label>
+                <label class="contact-form__label">
+                    <input class="contact-form__phone contact-form__container"
+                           type="tel"
+                           name="phone"
+                           placeholder="Phone"
+                    />
+                </label>
+                <div class="contact-form__checkbox-wrapper">
+                    <label class="contact-form__checkbox">
+                        <input class="contact-form__checkbox-input"
+                               type="checkbox"
+                        />
+                        <span class="contact-form__checkbox-mark">
+                            <svg class="contact-form__checkbox-icon"
+                                    width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.6 1L3.44048 8.2L1 5.74572" stroke="white" stroke-width="2"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+
+                        <span class="contact-form__legal">
+                I hereby agree to the
+                <a class="contact-form__checkbox-link"
+                   href="#">
+                    Terms and Conditions*
+                </a>
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <button class="contact-form__btn"
+                    type="submit"> Submit
+            </button>
+        </form>
+            <div class="contact__images-container">
+                <img class="contact__image-man"
+                     src="src/img/man-smile.webp"
+                     alt="smile man">
+                <img class="contact__image-frame"
+                     src="src/img/man-back-grey.svg"
+                     alt="background">
+                <img class="contact__image-background"
+                     src="src/img/man-back-white.png"
+                     alt="background">
+            </div>
     </div>
 </section>

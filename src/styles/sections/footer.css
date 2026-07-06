@@ -1,6 +1,6 @@
 .footer {
-    margin-top: var(--spacing-48);
-    margin-bottom: var(--spacing-40);
+    margin-top: var(--spacing-2xl);
+    margin-bottom: var(--spacing-l);
 }
 
 .footer__wrapper {
@@ -47,7 +47,7 @@
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-regular);
     line-height: 15px;
-    padding-bottom: var(--spacing-24);
+    padding-bottom: var(--spacing-m);
     margin: 0;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .footer__navigation-list-item {
-    padding-bottom: var(--spacing-16);
+    padding-bottom: var(--spacing-s);
     margin: 0;
 }
 
@@ -77,7 +77,7 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-p);
     color: var(--text-primary-color);
-    padding-bottom: var(--spacing-24);
+    padding-bottom: var(--spacing-m);
     margin: 0;
 }
 
@@ -86,7 +86,7 @@
     font-size: var(--font-size-small);
     color: var(--text-tertiary-color);
     margin: 0;
-    padding-bottom: var(--spacing-16);
+    padding-bottom: var(--spacing-s);
 }
 
 .footer__contact {
@@ -99,14 +99,14 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-p);
     color: var(--text-primary-color);
-    padding-bottom: var(--spacing-24);
+    padding-bottom: var(--spacing-m);
     margin: 0;
 }
 
 .footer__contact-email {
     font-size: var(--font-size-small);
     color: var(--text-tertiary-color);
-    padding-bottom: var(--spacing-16);
+    padding-bottom: var(--spacing-s);
 }
 
 .footer__contact-phone {

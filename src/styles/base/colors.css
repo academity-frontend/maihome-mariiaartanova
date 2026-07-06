@@ -27,6 +27,8 @@
 
     --background-primary-default-color: #3B6DFF;
 
+    /*///*/
+
     --border-color: #86CDC4;
 
     /* hover  */
@@ -38,8 +40,6 @@
 
 
     --btn-hover: #779AFF;
-    --btn-active: #295FFF;
-
 
     /* active */
 
@@ -50,6 +50,8 @@
 
     --btn-active: #295FFF;
 
+    /*disabled*/
+    --backgroung-disabled-color: #B4BEDA;
 
     /* .category */
 
@@ -59,6 +61,21 @@
 
     --border-sevice-cards: #E6E6E6;
 
+/*checkbox-stat*/
+    --border-color-checkbox: #666666;
+    --border-color-checkbox-hover: #3B6DFF;
+    --background-color-checkbox-checked: #3B6DFF;
+    --border-color-checkbox-disabled: #E6E6E6;
+    --border-color-checkbox-valid: #00BD00;
+    --border-color-checkbox-invalid: #FF0000;
 
+
+    /*input stat*/
+
+    --border-color-input: #C8C8C8;
+    --background-color-input-focus: #779AFF;
+    --border-color-input-disabled: #E6E6E6;
+    --border-color-input-valid: #00BD00;
+    --border-color-input-invalid: #FF0000;
 
 }

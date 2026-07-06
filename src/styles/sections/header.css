@@ -4,8 +4,8 @@
 
     display: flex;
     justify-content: space-between;
-    gap: var(--spacing-8);
-    padding: var(--spacing-8);
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
 }
 
 .header__logo-text {
@@ -16,7 +16,7 @@
 .header__logo {
     display: flex;
     align-items: center;
-    padding-left: var(--spacing-16);
+    padding-left: var(--spacing-s);
 }
 
 .header__logo-image {
@@ -38,10 +38,10 @@
     font-size: var(--font-size-small);
     list-style: none;
     display: flex;
-    padding-right: var(--spacing-12);
+    padding-right: var(--spacing-2xs);
 }
 
 .header__navigation-list-text {
-    padding: var(--spacing-8);
+    padding: var(--spacing-xs);
 }
 

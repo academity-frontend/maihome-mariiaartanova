@@ -5,8 +5,8 @@
 }
 .features__title {
     margin: 0;
-    padding-top: var(--spacing-84);
-    padding-bottom: var(--spacing-20);
+    padding-top: var(--spacing-7xl);
+    padding-bottom: var(--spacing-sm);
 }
 
 .features__description {
@@ -30,7 +30,7 @@
 
 .features__card-description {
     text-align: center;
-    padding-top:var(--spacing-16);
+    padding-top:var(--spacing-s);
     padding-bottom: 30px;
     margin: 0;
 }
@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: var(--spacing-80);
+    padding-bottom: var(--spacing-6xl);
 }
 
 .features__card {
