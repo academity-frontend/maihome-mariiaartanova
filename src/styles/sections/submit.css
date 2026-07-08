@@ -6,6 +6,7 @@
     #000000F2 95%),
     url(/src/img/leavingroom.webp);
     background-size: cover;
+    overflow: hidden;
 }
 
 .contact-form {
