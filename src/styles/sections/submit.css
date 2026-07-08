@@ -51,17 +51,25 @@
     color: var(--text-tertiary-color);
 }
 
+.input:hover {
+    background: var();
+    border-color: var(--backgroung-hover-primary-color);
+    transition: background .3s ease, border-color .3s ease;
+}
 .contact-form__container:focus-visible {
     border-color: var(--background-color-input-focus);
     outline: none;
+    color: var(--text-primary-color);
 }
 
 .contact-form__container:user-valid {
     border-color: var(--border-color-input-valid);
+    color: var(--text-primary-color);
 }
 
 .contact-form__container:user-invalid {
     border-color: var(--border-color-input-invalid);
+    color: var(--text-primary-color);
 }
 
 .contact-form__checkbox-wrapper {
@@ -94,7 +102,7 @@
 
 .contact-form__checkbox-icon {
     opacity: 0;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .contact-form__checkbox-mark:hover {
@@ -134,34 +142,6 @@
 
 .contact-form__checkbox-link {
     text-decoration: underline;
-}
-
-.contact-form__btn {
-    display: flex;
-    padding: 21px 152px;
-    margin-top: 32px;
-    margin-bottom: 52px;
-
-    border-radius: 1000px;
-    border: 1px solid var(--background-surface-fill2-color);
-    background-color: var(--button-primary-color);
-
-    color: var(--text-hero-color);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.contact-form__btn:hover {
-    background-color: var(--backgroung-hover-primary-color);
-}
-
-.contact-form__btn:active {
-    background-color: var(--backgroung-active-primary-color);
-}
-
-.contact-form__btn:disabled {
-    background-color: var(--backgroung-disabled-color);
-
 }
 
 .contact__images-container {

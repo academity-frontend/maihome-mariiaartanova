@@ -2,7 +2,7 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.5s;
     border-radius: var(--radius-xl);
 }
 
@@ -130,6 +130,32 @@
 
 /*//*/
 
+.contact-form__btn {
+    display: flex;
+    padding: 21px 152px;
+    margin-top: 32px;
+    margin-bottom: 52px;
 
+    border-radius: 1000px;
+    border: 1px solid var(--background-surface-fill2-color);
+    background-color: var(--button-primary-color);
+
+    color: var(--text-hero-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-form__btn:hover {
+    background-color: var(--backgroung-hover-primary-color);
+}
+
+.contact-form__btn:active {
+    background-color: var(--backgroung-active-primary-color);
+}
+
+.contact-form__btn:disabled {
+    background-color: var(--backgroung-disabled-color);
+
+}
 
 

@@ -18,6 +18,7 @@
 .recommend__category {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: var(--spacing-2xl);
 }
 
@@ -30,8 +31,12 @@
 }
 
 .recommend__cards {
-    display: block;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    /*gap: 20px;*/
+    width: calc((100% - 20px /3));
+    flex-wrap: wrap;
+
 }
 
 .recommend__card-item-link {
@@ -43,11 +48,13 @@
 
 .recommend__card-item-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
 }
 
 .recommend__card-image {
-    display: block;
+    width: 440px;
+    height: 206px;
+    display: flex;
     border-radius: 22px;
 }
 

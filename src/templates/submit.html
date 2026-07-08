@@ -10,23 +10,30 @@
             </div>
             <div class="contact-form__checkbox-wrapper">
                 <label class="contact-form__label">
-                    <input class="contact-form__name contact-form__container"
+                    <input class="contact-form__input input contact-form__name contact-form__container"
                            type="text"
                            name="name"
                            placeholder="Your name"
+                           minlength="2"
+                           maxlength="30"
+                           pattern="[A-Za-zА-Яа-яЁё\s]+"
+                           required
                     />
                 </label>
                 <label class="contact-form__label">
-                    <input class="contact-form__phone contact-form__container"
+                    <input class="contact-form__input input contact-form__phone contact-form__container"
                            type="tel"
                            name="phone"
                            placeholder="Phone"
+                           required
+                           pattern="[0-9]{7,20}"
                     />
                 </label>
                 <div class="contact-form__checkbox-wrapper">
                     <label class="contact-form__checkbox">
-                        <input class="contact-form__checkbox-input"
+                        <input class="input contact-form__checkbox-input"
                                type="checkbox"
+                               required
                         />
                         <span class="contact-form__checkbox-mark">
                             <svg class="contact-form__checkbox-icon"
@@ -47,8 +54,9 @@
                     </label>
                 </div>
             </div>
-            <button class="contact-form__btn"
-                    type="submit"> Submit
+            <button class="btn contact-form__btn"
+                    type="submit">
+                    Submit
             </button>
         </form>
             <div class="contact__images-container">
