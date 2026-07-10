@@ -42,8 +42,9 @@
 
 .btn--small {
     font-size: var(--font-size-small);
-    padding:var(--spacing-xs) 24px;
+    padding: var(--spacing-xs) 24px;
 }
+
 .btn-arrow-down {
     margin-bottom: 184px;
     border: 1px solid var(--background-surface-stroke-color);
@@ -85,6 +86,7 @@
     color: var(--category-active);
     border-color: var(--category-active);
 }
+
 .btn-arrow {
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-primary-color);
@@ -96,8 +98,8 @@
     align-items: center;
 
     position: absolute;
-    bottom:var(--spacing-xs);
-    right:var(--spacing-xs);
+    bottom: var(--spacing-xs);
+    right: var(--spacing-xs);
 }
 
 /*//*/
@@ -108,6 +110,7 @@
     justify-content: center;
 
 }
+
 .btn-more {
     text-align: center;
     margin: 0 auto;
@@ -130,7 +133,7 @@
 
 /*//*/
 
-.contact-form__btn {
+.contact-us__form-btn {
     display: flex;
     padding: 21px 152px;
     margin-top: 32px;
@@ -145,17 +148,19 @@
     font-weight: 400;
 }
 
-.contact-form__btn:hover {
+.contact-us__form-btn:hover {
     background-color: var(--backgroung-hover-primary-color);
 }
 
-.contact-form__btn:active {
+.contact-us__form-btn:active {
     background-color: var(--backgroung-active-primary-color);
 }
 
-.contact-form__btn:disabled {
+.contact-us__form-btn:disabled {
     background-color: var(--backgroung-disabled-color);
 
 }
+
+
 
 

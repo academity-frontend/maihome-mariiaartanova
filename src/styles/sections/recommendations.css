@@ -20,23 +20,18 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: var(--spacing-2xl);
+    gap: var(--spacing-xs);
 }
 
 .recommend__category-list {
     display: inline-block;
 }
 
-.recommend__category-list:not(:last-child) {
-    padding-right: var(--spacing-xs);
-}
-
 .recommend__cards {
     display: flex;
     align-items: center;
     /*gap: 20px;*/
-    width: calc((100% - 20px /3));
-    flex-wrap: wrap;
-
+    /*flex-wrap: wrap;*/
 }
 
 .recommend__card-item-link {

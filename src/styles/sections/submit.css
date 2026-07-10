@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.contact-form {
+.contact-us__form {
     display: block;
     max-width: 600px;
     width: 100%;
@@ -18,28 +18,29 @@
     display: flex;
     padding-left: 80px;
     gap: 200px;
+    position : relative;
 }
 
-.contact-form__wrapper {
+.contact-us__form-header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contact-form__title {
+.contact-us__form-title {
     color: var(--text-hero-color);
     margin: 0;
     padding-top: 52px;
 }
 
-.contact-form__description {
+.contact-us__form-description {
     text-align: left;
     margin-top: 16px;
     margin-bottom: 32px;
     color: var(--text-hero-color);
 }
 
-.contact-form__container {
+.contact-us__form-input {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,40 +58,41 @@
     border-color: var(--backgroung-hover-primary-color);
     transition: background .3s ease, border-color .3s ease;
 }
-.contact-form__container:focus-visible {
+.contact-us__form-input:focus-visible {
     border-color: var(--background-color-input-focus);
     outline: none;
     color: var(--text-primary-color);
 }
 
-.contact-form__container:user-valid {
+.contact-us__form-input:user-valid {
     border-color: var(--border-color-input-valid);
     color: var(--text-primary-color);
 }
 
-.contact-form__container:user-invalid {
+.contact-us__form-input:user-invalid {
     border-color: var(--border-color-input-invalid);
     color: var(--text-primary-color);
 }
 
-.contact-form__checkbox-wrapper {
+.contact-us__checkbox-wrapper {
     margin-top: 32px;
     position: relative;
+
 }
 
-.contact-form__checkbox {
+.contact-us__checkbox {
     display: flex;
     align-items: center;
     cursor: pointer;
     gap: 16px;
 }
 
-.contact-form__checkbox-input {
+.contact-us__checkbox-input {
     position: absolute;
     opacity: 0;
 }
 
-.contact-form__checkbox-mark {
+.contact-us__checkbox-mark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,39 +103,39 @@
     transition: 0.2s;
 }
 
-.contact-form__checkbox-icon {
+.contact-us__checkbox-icon {
     opacity: 0;
     transition: 0.3s;
 }
 
-.contact-form__checkbox-mark:hover {
+.contact-us__checkbox-mark:hover {
     border-color: var(--border-color-checkbox-hover);
 }
 
-.contact-form__checkbox-input:checked + .contact-form__checkbox-mark {
+.contact-us__checkbox-input:checked + .contact-us__checkbox-mark {
     background-color: var(--background-color-checkbox-checked);
     border-color: var(--background-color-checkbox-checked);
 }
 
-.contact-form__checkbox-input:checked + .contact-form__checkbox-mark .contact-form__checkbox-icon {
+.contact-us__checkbox-input:checked + .contact-us__checkbox-mark .contact-us__checkbox-icon {
     opacity: 1;
 }
 
-.contact-form__checkbox-input:disabled + .contact-form__checkbox-mark {
+.contact-us__checkbox-input:disabled + .contact-us__checkbox-mark {
     cursor: not-allowed;
     opacity: 0.4;
     border-color: var(--border-color-checkbox-disabled);
 }
 
-.contact-form__checkbox-input:user-valid + .contact-form__checkbox-mark {
+.contact-us__checkbox-input:user-valid + .contact-us__checkbox-mark {
     border-color: var(--border-color-checkbox-valid);
 }
 
-.contact-form__checkbox-input:user-invalid + .contact-form__checkbox-mark {
+.contact-us__checkbox-input:user-invalid + .contact-us__checkbox-mark {
     border-color: var(--border-color-checkbox-invalid);
 }
 
-.contact-form__legal {
+.contact-us__checkbox-legal {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
@@ -141,35 +143,30 @@
     color: var(--text-neutral-color);
 }
 
-.contact-form__checkbox-link {
+.contact-us__checkbox-link {
     text-decoration: underline;
 }
 
-.contact__images-container {
-    position: relative;
-}
-
-.contact__image-man {
+.contact-us__image-background {
     position: absolute;
-    bottom: 0;
-    left: -158px;
-    width: 1000px;
-}
-
-.contact__image-frame {
-    position: absolute;
-    bottom: 0;
-    left: -158px;
-    width: 400px;
-}
-
-.contact__image-background {
-    position: absolute;
-    bottom: 0;
-    left: -158px;
+    bottom: -36px;
+    left: 650px;
     width: 500px;
 }
 
+.contact-us__image-frame {
+    position: absolute;
+    bottom: 0;
+    left: 677px;
+    width: 440px;
+}
+
+.contact-us__image-man {
+    position: absolute;
+    bottom: 0;
+    left: 473px;
+    width: 1000px;
+}
 
 
 

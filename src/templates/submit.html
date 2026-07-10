@@ -1,16 +1,21 @@
 <section class="contact-us">
     <div class="contact-us__wrapper container">
-        <form class="contact-form" action="#" method="post">
-            <div class="contact-form__wrapper">
-                <h1 class="contact-form__title">Start Your Real Estate Journey Here</h1>
-                <p class="contact-form__description">Embark on your real estate journey today. Explore our listings and
+        <form class="contact-us__form"
+              action="#"
+              method="post">
+            <div class="contact-us__form-header">
+                <h1 class="contact-us__form-title">
+                    Start Your Real Estate Journey Here
+                </h1>
+                <p class="contact-us__form-description">
+                    Embark on your real estate journey today. Explore our listings and
                     find the perfect property to call
                     home.
                 </p>
             </div>
-            <div class="contact-form__checkbox-wrapper">
-                <label class="contact-form__label">
-                    <input class="contact-form__input input contact-form__name contact-form__container"
+            <div class="contact-us__checkbox-frame">
+                <label class="contact-us__form-label">
+                    <input class="contact-us__form-input input"
                            type="text"
                            name="name"
                            placeholder="Your name"
@@ -20,8 +25,8 @@
                            required
                     />
                 </label>
-                <label class="contact-form__label">
-                    <input class="contact-form__input input contact-form__phone contact-form__container"
+                <label class="contact-us__form-label">
+                    <input class="contact-us__form-input input "
                            type="tel"
                            name="phone"
                            placeholder="Phone"
@@ -29,14 +34,14 @@
                            pattern="[0-9]{7,20}"
                     />
                 </label>
-                <div class="contact-form__checkbox-wrapper">
-                    <label class="contact-form__checkbox">
-                        <input class="input contact-form__checkbox-input"
+                <div class="contact-us__checkbox-wrapper">
+                    <label class="contact-us__checkbox">
+                        <input class="input contact-us__checkbox-input"
                                type="checkbox"
                                required
                         />
-                        <span class="contact-form__checkbox-mark">
-                            <svg class="contact-form__checkbox-icon"
+                        <span class="contact-us__checkbox-mark">
+                            <svg class="contact-us__checkbox-icon"
                                     width="12" height="10" viewBox="0 0 12 10" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.6 1L3.44048 8.2L1 5.74572" stroke="white" stroke-width="2"
@@ -44,31 +49,29 @@
                             </svg>
                         </span>
 
-                        <span class="contact-form__legal">
-                I hereby agree to the
-                <a class="contact-form__checkbox-link"
-                   href="#">
-                    Terms and Conditions*
-                </a>
+                        <span class="contact-us__checkbox-legal">
+                            I hereby agree to the
+                            <a class="contact-us__checkbox-link"
+                             href="#">
+                             Terms and Conditions*
+                             </a>
                         </span>
                     </label>
                 </div>
             </div>
-            <button class="btn contact-form__btn"
+            <button class="btn contact-us__form-btn"
                     type="submit">
                     Submit
             </button>
         </form>
-            <div class="contact__images-container">
-                <img class="contact__image-background"
+                <img class="contact-us__image-background"
                      src="src/img/man-back-white.png"
                      alt="background">
-                <img class="contact__image-frame"
+                <img class="contact-us__image-frame"
                      src="src/img/man-back-grey.svg"
                      alt="background">
-                <img class="contact__image-man"
+                <img class="contact-us__image-man"
                      src="src/img/man-smile.webp"
                      alt="smile man">
-            </div>
     </div>
 </section>
