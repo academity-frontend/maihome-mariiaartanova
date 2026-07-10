@@ -1,8 +1,8 @@
 .recommend__header {
     display: flex;
     justify-content: space-between;
-    margin-top: var(--spacing-24);
-    margin-bottom: var(--spacing-64);
+    margin-top: var(--spacing-m);
+    margin-bottom: var(--spacing-5xl);
     gap: 100px;
 }
 
@@ -18,20 +18,20 @@
 .recommend__category {
     justify-content: center;
     display: flex;
-    margin-bottom: var(--spacing-48);
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-2xl);
+    gap: var(--spacing-xs);
 }
 
 .recommend__category-list {
     display: inline-block;
 }
 
-.recommend__category-list:not(:last-child) {
-    padding-right: var(--spacing-8);
-}
-
 .recommend__cards {
-    display: block;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    /*gap: 20px;*/
+    /*flex-wrap: wrap;*/
 }
 
 .recommend__card-item-link {
@@ -43,17 +43,19 @@
 
 .recommend__card-item-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
 }
 
 .recommend__card-image {
-    display: block;
+    width: 440px;
+    height: 206px;
+    display: flex;
     border-radius: 22px;
 }
 
 .recommend__card-title {
     font-size: var(--font-size-p);
-    padding-bottom: var(--spacing-12);
+    padding-bottom: var(--spacing-2xs);
 }
 
 .recommend__card-price {
@@ -64,8 +66,8 @@
 .recommend__card {
     display: block;
     flex-direction: column;
-    margin-right: var(--spacing-20);
-    margin-bottom: var(--spacing-20);
+    margin-right: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
     min-width: 440px;
 }
 
@@ -84,7 +86,7 @@
 
 .recommend__card-price {
     font-weight: var(--font-weight-regular);
-    font-size: var(--spacing-16);
+    font-size: var(--spacing-s);
     margin: 0;
     color: var(--text-primary-color);
 }
@@ -94,14 +96,14 @@
 
 .recommend__card-location {
     font-weight: var(--font-weight-regular);
-    font-size:var(--spacing-16);
+    font-size:var(--spacing-s);
     line-height: 18px;
     color: var(--text-secondary-color);
     margin: 0;
 }
 
 .recommend__card-location-icon{
-    padding-bottom: var(--spacing-12);
+    padding-bottom: var(--spacing-2xs);
     margin: 0;
 }
 .recommend__card-rating-value {

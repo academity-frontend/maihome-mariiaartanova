@@ -20,7 +20,7 @@
 
 .faq__description {
     white-space: normal;
-    margin-bottom: var(--spacing-56);
+    margin-bottom: var(--spacing-3xl);
     color: var(--text-secondary-color);
     text-align: center;
 }
@@ -29,7 +29,7 @@
     background-color: var(--backgroung-main-color);
     border-radius: var(--radius-xl);
 
-    margin-bottom: var(--spacing-20);
+    margin-bottom: var(--spacing-l);
 }
 
 .faq__items-summary {
@@ -38,6 +38,34 @@
     line-height: var(--line-height-body);
     list-style: none;
     padding: 28px;
+    position: relative;
+
+    &:before {
+        content: '+';
+        color: var(--text-primary-color);
+        display: block;
+        font-size: 24px;
+        padding: 10px 20px;
+        position: absolute;
+        background-color: var(--button-secondary-color);
+        border-color: var(--button-primary-border-color);
+        border-radius: 1000px;
+        right: 30px;
+        top: 20%;
+        }
+}
+
+.faq__items[open] .faq__items-summary::before {
+    content: '-';
+    display: block;
+    font-size: 24px;
+    padding: 10px 21px;
+    position: absolute;
+    color: var(--text-hero-color);
+    background-color: var(--button-primary-color);
+    border-radius: 1000px;
+    right: 30px;
+    top: 20%;
 }
 
 

@@ -1,19 +1,77 @@
-<section class="submit">
-    <div class="submit__wrapper container">
-        <header class="submit__header">
-            <h2 class="submit__title">Start Your Real Estate Journey Here</h2>
-            <p class="submit__description">Embark on your real estate journey today. Explore our listings and find the
-                perfect
-                property to call
-                home.</p>
-        </header>
-        <div class="submit__images-container">
-            <img src="src/img/man-smile.webp"
-                 alt="smile man">
-            <img src="src/img/man-back-grey.svg"
-                 alt="background">
-            <img src="src/img/man-back-white.png"
-                 alt="background">
-        </div>
+<section class="contact-us">
+    <div class="contact-us__wrapper container">
+        <form class="contact-us__form"
+              action="#"
+              method="post">
+            <div class="contact-us__form-header">
+                <h1 class="contact-us__form-title">
+                    Start Your Real Estate Journey Here
+                </h1>
+                <p class="contact-us__form-description">
+                    Embark on your real estate journey today. Explore our listings and
+                    find the perfect property to call
+                    home.
+                </p>
+            </div>
+            <div class="contact-us__checkbox-frame">
+                <label class="contact-us__form-label">
+                    <input class="contact-us__form-input input"
+                           type="text"
+                           name="name"
+                           placeholder="Your name"
+                           minlength="2"
+                           maxlength="30"
+                           pattern="[A-Za-zА-Яа-яЁё\s]+"
+                           required
+                    />
+                </label>
+                <label class="contact-us__form-label">
+                    <input class="contact-us__form-input input "
+                           type="tel"
+                           name="phone"
+                           placeholder="Phone"
+                           required
+                           pattern="[0-9]{7,20}"
+                    />
+                </label>
+                <div class="contact-us__checkbox-wrapper">
+                    <label class="contact-us__checkbox">
+                        <input class="input contact-us__checkbox-input"
+                               type="checkbox"
+                               required
+                        />
+                        <span class="contact-us__checkbox-mark">
+                            <svg class="contact-us__checkbox-icon"
+                                    width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.6 1L3.44048 8.2L1 5.74572" stroke="white" stroke-width="2"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+
+                        <span class="contact-us__checkbox-legal">
+                            I hereby agree to the
+                            <a class="contact-us__checkbox-link"
+                             href="#">
+                             Terms and Conditions*
+                             </a>
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <button class="btn contact-us__form-btn"
+                    type="submit">
+                    Submit
+            </button>
+        </form>
+                <img class="contact-us__image-background"
+                     src="src/img/man-back-white.png"
+                     alt="background">
+                <img class="contact-us__image-frame"
+                     src="src/img/man-back-grey.svg"
+                     alt="background">
+                <img class="contact-us__image-man"
+                     src="src/img/man-smile.webp"
+                     alt="smile man">
     </div>
 </section>
