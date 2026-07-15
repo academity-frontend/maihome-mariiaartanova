@@ -4,14 +4,18 @@ body {
     margin: 0;
     font-size: 24px;
     list-style: none;
-    
+
 }
 
 h1 {
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-body);
-    /* color: var(--text-hero-color); */
+
+    @media (max-width: 420px) {
+        font-size: var(--font-size-h3);
+        font-weight: var(--font-weight-regular);
+    }
 }
 
 h2 {
@@ -19,6 +23,11 @@ h2 {
     font-size: var(--font-size-h2);
     line-height: var(--line-height-heading);
     color: var(--text-primary-color);
+
+    @media (max-width: 420px) {
+        font-size: var(--font-size-h3);
+        font-weight: var(--font-weight-regular);
+    }
 }
 
 h3 {

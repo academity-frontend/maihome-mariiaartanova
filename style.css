@@ -27,14 +27,16 @@ ul {
     max-width: 1440px;
     margin: 0 auto;
     padding-inline: 40px;
+
+    @media (max-width: 420px) {
+        padding-inline: 24px;
+    }
 }
 
 .container.container--narrow {
     max-width: 1072px;
     padding-inline: 24px;
 }
-
-
 
 * {
     box-sizing: border-box;

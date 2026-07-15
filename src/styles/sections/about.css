@@ -3,11 +3,20 @@
     padding-top: var(--spacing-6xl);
     padding-bottom: var(--spacing-2xl);
     margin: 0;
+
+    @media (max-width: 420px) {
+        padding-top: var(--spacing-2xl);
+    }
 }
 
 .about__wrapper {
     display: flex;
     gap: 20px;
+
+    @media (max-width: 420px) {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
 }
 
 .about__heading {
@@ -18,6 +27,14 @@
 
     min-width: 214px;
     margin: 0;
+
+    @media (max-width: 1024px) {
+        min-width: 180px;
+    }
+
+    @media (max-width: 420px) {
+        text-align: center;
+    }
 }
 
 .about__content {
@@ -29,6 +46,21 @@
     font-size: var(--font-size-h3);
     margin: 0;
     padding-bottom: var(--spacing-sm);
+    color: var(--text-tertiary-color);
+
+    @media (max-width: 1024px) {
+        font-size: var(--font-size-body);
+    }
+
+    @media (max-width: 420px) {
+        font-size: var(--font-size-p);
+        padding-bottom: var(--spacing-s);
+        text-align: center;
+    }
+}
+
+.about__logo {
+    color: var(--text-primary-color);
 }
 
 .about__list {
@@ -36,10 +68,22 @@
     line-height: var(--line-height-body);
     margin: 0;
     padding-bottom: var(--spacing-2xl);
+
+    @media (max-width: 1024px) {
+        font-size: var(--font-size-body);
+    }
+
+    @media (max-width: 420px) {
+        font-size: var(--font-size-p);
+    }
 }
 
 .about__list-item {
     margin-left: 52px;
+
+    @media (max-width: 420px) {
+        margin-left: 32px ;
+    }
 }
 
 .about__review {
@@ -47,12 +91,20 @@
     padding: 0;
     display: flex;
     gap: 20px;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
 }
 
 .about__review-image {
-    width: calc( 50% - 10px );
+    width: calc(50% - 10px);
     border-radius: var(--radius-xl);
     object-fit: cover;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
 }
 
 .about__review-card {

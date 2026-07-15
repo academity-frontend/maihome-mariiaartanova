@@ -28,7 +28,6 @@
 .faq__items {
     background-color: var(--backgroung-main-color);
     border-radius: var(--radius-xl);
-
     margin-bottom: var(--spacing-l);
 }
 
@@ -53,6 +52,10 @@
         right: 30px;
         top: 20%;
         }
+
+    @media (max-width: 1024px) {
+        padding-right: var(--spacing-6xl);
+    }
 }
 
 .faq__items[open] .faq__items-summary::before {
@@ -67,7 +70,6 @@
     right: 30px;
     top: 20%;
 }
-
 
 .faq__items-answer {
     text-align: left;

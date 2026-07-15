@@ -11,6 +11,10 @@
 
 .footer__content {
     max-width: 520px;
+
+    @media (max-width: 1024px) {
+        max-width: 472px;
+    }
 }
 
 .footer__logo {
@@ -45,6 +49,9 @@
     max-width: 680px;
     font-size: var(--font-size-small);
 
+    @media (max-width: 1024px) {
+        max-width: 472px;
+    }
 }
 
 .footer__navigation-list {
@@ -52,6 +59,11 @@
     flex-direction: column;
     max-width: 226px;
     margin-right: 100px;
+
+    @media (max-width: 1024px) {
+        max-width: 158px;
+        margin-right: 50px;
+    }
 }
 
 .footer__navigation-list-title {
@@ -78,6 +90,11 @@
     display: flex;
     flex-direction: column;
     max-width: 226px;
+
+    @media (max-width: 1024px) {
+        min-width: 158px;
+        min-height: 178px;
+    }
 }
 
 .footer__address-title {
@@ -97,14 +114,18 @@
 }
 
 .footer__address-list {
-
+    margin-right: 20px;
 }
-
 .footer__contact {
     display: flex;
     flex-direction: column;
     text-align: left;
     min-width: 226px;
+
+    @media (max-width: 1024px) {
+        min-width: 158px;
+        min-height: 124px;
+    }
 }
 
 .footer__contact-title {

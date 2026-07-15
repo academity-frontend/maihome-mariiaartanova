@@ -104,13 +104,11 @@
 
 /*//*/
 
-.recommend__btn {
-    min-width: 182px;
-    display: flex;
-    justify-content: center;
-
+.recommend__cards-bottom-action {
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
 }
-
 .btn-more {
     text-align: center;
     margin: 0 auto;
