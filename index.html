@@ -24,41 +24,45 @@
 <include src="src/templates/footer.html"></include>
 
 <script>
-    // nav
-    const button = document.querySelector(".js-button");
-    const nav = document.querySelector(".js-nav");
-    const body = document.querySelector("body");
+    (() => {
+        // nav
+        const button = document.querySelector(".js-button");
+        const nav = document.querySelector(".js-nav");
+        const body = document.querySelector("body");
 
-    // close nav menu
-    function closeMenu() {
-        nav.classList.remove("is-open");
-        body.classList.remove("is-open");
-        button.classList.remove("is-open");
-    }
-
-    // toggle on click burger button
-    button.addEventListener("click", function () {
-        nav.classList.toggle("is-open");
-        body.classList.toggle("is-open");
-        button.classList.toggle("is-open");
-    });
-
-    // close on click nav link
-    nav.addEventListener("click", function (event) {
-        // Проверяем, что кликнули именно по ссылке (тег <a>)
-        if (event.target.closest("a")) {
-            closeMenu();
+        // close nav menu
+        function closeMenu() {
+            nav.classList.remove("is-open");
+            body.classList.remove("is-open");
+            button.classList.remove("is-open");
         }
-    });
 
-    // filter
-    const filterButton = document.querySelector(".js-filter-button");
-    const filterList = document.querySelector(".js-filter-list");
+        // toggle on click burger button
+        button.addEventListener("click", function () {
+            nav.classList.toggle("is-open");
+            body.classList.toggle("is-open");
+            button.classList.toggle("is-open");
+        });
 
-    filterButton.addEventListener("click", function () {
-        filterList.classList.toggle("is-open");
-        filterButton.classList.toggle("is-open");
-    });
+        // close on click nav link
+        nav.addEventListener("click", function (event) {
+            // Проверяем, что кликнули именно по ссылке (тег <a>)
+            if (event.target.closest("a")) {
+                closeMenu();
+            }
+        });
+    })();
+
+    (() => {
+        // filter
+        const filterButton = document.querySelector(".js-filter-button");
+        const filterList = document.querySelector(".js-filter-list");
+
+        filterButton.addEventListener("click", function () {
+            filterList.classList.toggle("is-open");
+            filterButton.classList.toggle("is-open");
+        });
+    })();
 </script>
 
 </body>
