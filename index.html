@@ -11,8 +11,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
-
 </head>
 <body>
 
@@ -24,6 +22,44 @@
 <include src="src/templates/faq.html"></include>
 <include src="src/templates/submit.html"></include>
 <include src="src/templates/footer.html"></include>
+
+<script>
+    // nav
+    const button = document.querySelector(".js-button");
+    const nav = document.querySelector(".js-nav");
+    const body = document.querySelector("body");
+
+    // close nav menu
+    function closeMenu() {
+        nav.classList.remove("is-open");
+        body.classList.remove("is-open");
+        button.classList.remove("is-open");
+    }
+
+    // toggle on click burger button
+    button.addEventListener("click", function () {
+        nav.classList.toggle("is-open");
+        body.classList.toggle("is-open");
+        button.classList.toggle("is-open");
+    });
+
+    // close on click nav link
+    nav.addEventListener("click", function (event) {
+        // Проверяем, что кликнули именно по ссылке (тег <a>)
+        if (event.target.closest("a")) {
+            closeMenu();
+        }
+    });
+
+    // filter
+    const filterButton = document.querySelector(".js-filter-button");
+    const filterList = document.querySelector(".js-filter-list");
+
+    filterButton.addEventListener("click", function () {
+        filterList.classList.toggle("is-open");
+        filterButton.classList.toggle("is-open");
+    });
+</script>
 
 </body>
 </html>

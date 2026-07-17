@@ -7,6 +7,7 @@
     url(/src/img/leavingroom.webp);
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 .contact-us__form {
@@ -14,11 +15,11 @@
     max-width: 600px;
     width: 100%;
 }
+
 .contact-us__wrapper {
     display: flex;
     padding-left: 80px;
     gap: 200px;
-    position : relative;
 }
 
 .contact-us__form-header {
@@ -53,15 +54,22 @@
     color: var(--text-tertiary-color);
 }
 
-.input:hover {
-    background: var();
-    border-color: var(--backgroung-hover-primary-color);
-    transition: background .3s ease, border-color .3s ease;
+.contact-us__form-input:hover {
+    border-color: var(--border-color-checkbox-hover);
 }
+
+.contact-us__form-input:not(:placeholder-shown) {
+    border-color: var(--border-color-input);
+}
+
 .contact-us__form-input:focus-visible {
     border-color: var(--background-color-input-focus);
     outline: none;
     color: var(--text-primary-color);
+    top: -6px;
+    bottom: -6px;
+    left: -6px;
+    right: -6px;
 }
 
 .contact-us__form-input:user-valid {
@@ -74,77 +82,116 @@
     color: var(--text-primary-color);
 }
 
-.contact-us__checkbox-wrapper {
-    margin-top: 32px;
+/*.contact-us__checkbox-wrapper {*/
+/*    margin-top: 32px;*/
+/*    position: relative;*/
+
+/*}*/
+
+/*.contact-us__checkbox {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    cursor: pointer;*/
+/*    gap: 16px;*/
+/*}*/
+
+/*.contact-us__checkbox-mark {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 32px;*/
+/*    height: 32px;*/
+/*    border-radius: 8px;*/
+/*    border: 2px solid var(--border-color-checkbox);*/
+/*    transition: 0.2s;*/
+/*}*/
+
+/*.contact-us__checkbox-icon {*/
+/*    opacity: 0;*/
+/*    transition: 0.3s;*/
+/*}*/
+
+/*.contact-us__checkbox-mark:hover {*/
+/*    border-color: var(--border-color-checkbox-hover);*/
+/*}*/
+
+.checkbox {
+    display: flex;
+    margin: 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--text-neutral-color);
+    padding-left: 24px;
     position: relative;
-
-}
-
-.contact-us__checkbox {
-    display: flex;
-    align-items: center;
     cursor: pointer;
-    gap: 16px;
 }
 
-.contact-us__checkbox-input {
+.checkbox__input {
+    transition: 0.3s;
+    margin: 0;
+    user-select: none;
+    appearance: none;
+    cursor: inherit;
+}
+
+.checkbox__input::before {
+    content: '';
+    box-sizing: border-box;
     position: absolute;
-    opacity: 0;
-}
-
-.contact-us__checkbox-mark {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 8px;
+    left: 0;
     width: 32px;
     height: 32px;
     border-radius: 8px;
     border: 2px solid var(--border-color-checkbox);
-    transition: 0.2s;
-}
-
-.contact-us__checkbox-icon {
-    opacity: 0;
+    margin-right: 16px;
     transition: 0.3s;
 }
 
-.contact-us__checkbox-mark:hover {
-    border-color: var(--border-color-checkbox-hover);
+.checkbox__input::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s opacity;
+    border-radius: 8px;
+    background: url('data:image/svg+xml,<svg class="contact-us__checkbox-icon" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.6 1L3.44048 8.2L1 5.74572" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') center no-repeat,
+    var(--border-color-checkbox-hover);
+    opacity: 0;
 }
 
-.contact-us__checkbox-input:checked + .contact-us__checkbox-mark {
-    background-color: var(--background-color-checkbox-checked);
-    border-color: var(--background-color-checkbox-checked);
-}
-
-.contact-us__checkbox-input:checked + .contact-us__checkbox-mark .contact-us__checkbox-icon {
+.checkbox__input:checked::after {
     opacity: 1;
 }
 
-.contact-us__checkbox-input:disabled + .contact-us__checkbox-mark {
+.checkbox__input:hover::before {
+    border-color: var(--backgroung-hover-primary-color);
+    transition: background .3s ease, border-color .3s ease;
+}
+
+.checkbox__input:disabled::before {
     cursor: not-allowed;
     opacity: 0.4;
     border-color: var(--border-color-checkbox-disabled);
 }
 
-.contact-us__checkbox-input:user-valid + .contact-us__checkbox-mark {
+.checkbox__input:user-valid::before {
     border-color: var(--border-color-checkbox-valid);
 }
 
-.contact-us__checkbox-input:user-invalid + .contact-us__checkbox-mark {
+.checkbox__input:user-invalid::before {
     border-color: var(--border-color-checkbox-invalid);
 }
 
-.contact-us__checkbox-legal {
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: var(--text-neutral-color);
+.checkbox__text {
+    margin-top: 16px;
 }
 
-.contact-us__checkbox-link {
+.checkbox__link {
     text-decoration: underline;
+    padding-left: 4px;
 }
 
 .contact-us__image-background {
@@ -167,15 +214,3 @@
     left: 473px;
     width: 1000px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
