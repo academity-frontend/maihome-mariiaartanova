@@ -4,6 +4,9 @@
     cursor: pointer;
     transition: 0.5s;
     border-radius: var(--radius-xl);
+    background-color: transparent;
+    margin: 0;
+    border: none;
 }
 
 .btn-primary {
@@ -55,6 +58,9 @@
     align-items: center;
     color: #000000;
 
+    @media (max-width: 768px) {
+        margin-bottom: var(--spacing-7xl);
+    }
 }
 
 .btn-arrow-down:hover {
@@ -87,10 +93,10 @@
     border-color: var(--category-active);
 }
 
-.btn-arrow {
+.recommend__card-icon {
+    border-radius: var(--radius-xl);
     border: 1px solid var(--button-primary-border-color);
     background-color: var(--button-primary-color);
-    color: var(--text-neutral-color);
     width: 56px;
     height: 56px;
     display: flex;
@@ -109,6 +115,7 @@
         width: 100%;
     }
 }
+
 .btn-more {
     text-align: center;
     margin: 0 auto;

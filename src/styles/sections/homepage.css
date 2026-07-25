@@ -20,8 +20,12 @@
 .homepage__description {
     max-width: 900px;
     margin: 0 auto;
-    margin-bottom: var(--spacing-8xl);
+    margin-bottom: var(--spacing-xl);
     color: var(--text-hero-color);
+
+    @media (max-width: 768px) {
+        margin-bottom: var(--spacing-7xl);
+    }
 }
 
 .homepage__list {

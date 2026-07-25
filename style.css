@@ -29,6 +29,10 @@ ul {
     padding-inline: 40px;
     overflow-y: scroll;
 
+    @media (max-width: 1024px) {
+        padding-inline: 24px;
+    }
+
     @media (max-width: 420px) {
         padding-inline: 24px;
     }
