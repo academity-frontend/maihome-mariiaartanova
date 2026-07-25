@@ -120,7 +120,7 @@
     flex-direction: column;
     margin-right: var(--spacing-sm);
     margin-bottom: var(--spacing-sm);
-    min-width: 440px;
+    min-width: 200px;
 }
 
 .recommend__card-media {

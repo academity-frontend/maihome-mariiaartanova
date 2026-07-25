@@ -3,9 +3,7 @@
 @import "src/styles/base/typography.css";
 @import "src/styles/base/helpers.css";
 
-
 @import "src/styles/components/button.css";
-
 
 @import "src/styles/sections/header.css";
 @import "src/styles/sections/homepage.css";
@@ -23,7 +21,7 @@ ul {
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: 0 auto;
     padding-inline: 40px;
@@ -45,7 +43,26 @@ ul {
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+.backdrop {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body.is-open .backdrop {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /*  */
 
