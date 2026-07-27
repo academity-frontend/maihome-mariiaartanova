@@ -110,10 +110,25 @@
 
 /*//*/
 
-.recommend__cards-bottom-action {
-    @media (max-width: 1024px) {
+.recommend__card-filter {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        background-color: var(--button-secondary-color);
+        border-radius: 1000px;
+        border: 1px solid var(--button-secondary-border-color);
+        color: var(--text-primary-color);
     }
+}
+
+.recommend__card-filter-item {
+    display: flex;
+    padding: var(--spacing-sm);
+    gap: var(--spacing-xs);
 }
 
 .btn-more {

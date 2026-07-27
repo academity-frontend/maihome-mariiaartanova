@@ -10,9 +10,9 @@
     margin-bottom: var(--spacing-5xl);
     gap: 100px;
 
-    @media (max-width: 420px) {
+    @media (max-width: 768px) {
         display: block;
-        text-align: center
+        text-align: center;
     }
 }
 
@@ -24,10 +24,12 @@
         min-width: 422px;
     }
 
+    @media (max-width: 768px) {
+        padding-bottom: 20px;
+    }
     @media (max-width: 420px) {
         text-align: center;
         min-width: 344px;
-        padding-bottom: 20px;
     }
 }
 
@@ -44,15 +46,64 @@
 
     @media (max-width: 768px) {
         display: none;
-
     }
 }
 
-.recommend__card-filter {
+.recommend__card_title {
+    color: var(--text-primary-color);
+    font-size: var(--font-size-p);
+}
+
+.recommend__filter-line:first-child {
     display: none;
 
     @media (max-width: 768px) {
-        display: flex;
+        width: 20px;
+        height: 2px;
+        background-color: var(--text-primary-color);
+        border-radius: 9px;
+        display: block;
+        margin: 4px auto;
+        padding: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.recommend__filter-line {
+    display: none;
+
+    @media (max-width: 768px) {
+        color: black;
+        width: 14px;
+        height: 2px;
+        background-color: var(--text-primary-color);
+        border-radius: 9px;
+        display: block;
+        margin: 4px auto;
+        padding: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.recommend__filter-line:last-child {
+    display: none;
+
+    @media (max-width: 768px) {
+        color: black;
+        width: 6px;
+        height: 2px;
+        background-color: var(--text-primary-color);
+        border-radius: 9px;
+        display: block;
+        margin: 4px auto;
+        padding: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 }
 
@@ -73,7 +124,7 @@
     }
 
     @media (max-width: 768px) {
-        max-width: 344px;
+        width: 344px;
         grid-template-columns: 1fr;
         margin-bottom: 0;
     }
@@ -182,7 +233,7 @@
         margin-bottom: var(--spacing-7xl);
     }
 
-    @media (max-width: 420px) {
-        margin-bottom: var(--spacing-2xl);
+    @media (max-width: 768px) {
+        margin-bottom: var(--spacing.features__card-title-2xl);
     }
 }
