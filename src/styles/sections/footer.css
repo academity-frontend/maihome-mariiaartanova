@@ -4,17 +4,16 @@
 }
 
 .footer__top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 768px) {
+        display: flex;
+    }
 }
 
 .footer__content {
-    max-width: 520px;
-
-    @media (max-width: 1024px) {
-        max-width: 472px;
-    }
+    grid-column: 1/2;
 }
 
 .footer__logo {
@@ -27,7 +26,7 @@
 
 .footer__description {
     color: var(--text-tertiary-color);
-    max-width: 532px;
+    /*max-width: 532px;*/
     margin: 0;
     padding-bottom: 54px;
     padding-top: var(--spacing-m);
@@ -36,6 +35,10 @@
 .footer__socials {
     display: flex;
     margin-bottom: var(--spacing-6xl);
+
+    @media (max-width: 768px) {
+        margin-bottom: var(--spacing-xl);
+    }
 }
 
 .footer__socials-link {
@@ -43,28 +46,23 @@
 }
 
 .footer__navigation {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 680px;
-    font-size: var(--font-size-small);
+    grid-column: 2/3;
 
-    @media (max-width: 1024px) {
-        max-width: 472px;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-small);
+    gap: var(--spacing-m);
+
+    @media (max-width: 768px) {
+    display: none;
     }
 }
 
 .footer__navigation-list {
     display: flex;
     flex-direction: column;
-    max-width: 226px;
-    margin-right: 100px;
-
-    @media (max-width: 1024px) {
-        max-width: 158px;
-        margin-right: 50px;
-    }
 }
+
 
 .footer__navigation-list-title {
     font-size: var(--font-size-p);
@@ -89,12 +87,6 @@
 .footer__address {
     display: flex;
     flex-direction: column;
-    max-width: 226px;
-
-    @media (max-width: 1024px) {
-        min-width: 158px;
-        min-height: 178px;
-    }
 }
 
 .footer__address-title {
@@ -116,15 +108,14 @@
 .footer__address-list {
     margin-right: 20px;
 }
+
 .footer__contact {
     display: flex;
     flex-direction: column;
     text-align: left;
-    min-width: 226px;
 
     @media (max-width: 1024px) {
-        min-width: 158px;
-        min-height: 124px;
+
     }
 }
 
@@ -150,6 +141,10 @@
 .footer__bottom {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .footer__bottom-copyright {

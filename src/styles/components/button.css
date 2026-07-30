@@ -93,6 +93,13 @@
     border-color: var(--category-active);
 }
 
+.btn-category.is-active {
+    color: var(--text-active-primary-color);
+    border-color: var(--background-primary-default-color);
+    background-color: var(--background-primary-default-color);
+}
+
+
 .recommend__card-icon {
     border-radius: var(--radius-xl);
     border: 1px solid var(--button-primary-border-color);
@@ -113,7 +120,7 @@
 .recommend__card-filter {
     display: none;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -122,6 +129,7 @@
         border-radius: 1000px;
         border: 1px solid var(--button-secondary-border-color);
         color: var(--text-primary-color);
+        margin-bottom: var(--spacing-m);
     }
 }
 
@@ -131,6 +139,7 @@
     gap: var(--spacing-xs);
 }
 
+/*//*/
 .btn-more {
     text-align: center;
     margin: 0 auto;
@@ -155,7 +164,7 @@
 
 .contact-us__form-btn {
     display: flex;
-    padding: 21px 152px;
+    padding: 22px 152px;
     margin-top: 32px;
     margin-bottom: 52px;
 
@@ -166,6 +175,17 @@
     color: var(--text-hero-color);
     font-size: 20px;
     font-weight: 400;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+        align-items: center;
+        padding: 22px 100px;
+        width: 80%;
+    }
+
+    @media (max-width: 420px) {
+        padding: 22px;
+    }
 }
 
 .contact-us__form-btn:hover {
