@@ -13,12 +13,17 @@
 .contact-us__form {
     display: block;
     width: 100%;
+    padding-right: 700px;
+
+    @media (max-width: 1024px) {
+        padding-right: 0;
+    }
 }
 
 .contact-us__wrapper {
     display: flex;
     padding-left: 40px;
-    gap: 200px;
+    /*gap: 200px;*/
 
     @media (max-width: 768px) {
         padding-left: 0;
@@ -37,7 +42,7 @@
     margin: 0;
     padding-top: 52px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 420px) {
         font-size: var(--font-size-h3);
     }
 }
@@ -58,11 +63,11 @@
     border: 2px solid var(--background-surface-stroke-color);
     border-radius: 16px;
     padding: 16px;
-    width: 60%;
+    width: 80%;
     color: var(--text-tertiary-color);
 
-    @media (max-width: 768px) {
-        width: 80%;
+    @media (max-width: 1024px) {
+        width: 60%;
     }
 
     @media (max-width: 420px) {
@@ -178,7 +183,7 @@
 }
 
 .contact-us__image {
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 }
@@ -186,20 +191,20 @@
 .contact-us__image-background {
     position: absolute;
     bottom: -36px;
-    left: 650px;
+    right: 52px;
     width: 500px;
 }
 
 .contact-us__image-frame {
     position: absolute;
     bottom: 0;
-    left: 677px;
+    right: 82px;
     width: 440px;
 }
 
 .contact-us__image-man {
     position: absolute;
     bottom: 0;
-    left: 473px;
+    right: -272px;
     width: 1000px;
 }

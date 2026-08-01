@@ -1,7 +1,7 @@
 .features {
     background-color: var(--backgroung-secondary-color);
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .features__title {
@@ -113,8 +113,10 @@
 .features__card-bottom {
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
-    padding-inline: 12px;
     padding-top: 28px;
+
+    border-bottom-left-radius: var(--radius-xl);
+    border-bottom-right-radius: var(--radius-xl);
 }
 
 .features__card-title {
@@ -132,6 +134,8 @@
     display: block;
     object-fit: contain;
     border-bottom: 1px solid var(--border-color-input);
+    border-top-left-radius: var(--radius-xl);
+    border-top-right-radius: var(--radius-xl);
     width: 100%;
     height: 302px;
 }
