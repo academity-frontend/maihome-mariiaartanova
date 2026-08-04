@@ -1,5 +1,6 @@
 /* h1,h2,h3 */
 body {
+    font-family: var(--font-family-main);
     margin: 0;
     font-size: 24px;
     list-style: none;
