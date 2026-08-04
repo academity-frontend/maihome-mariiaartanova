@@ -45,7 +45,7 @@
 
 
     @media (max-width: 420px) {
-        padding-bottom: var(--spacing-2xl);
+        margin-bottom: var(--spacing-2xl);
     }
 }
 

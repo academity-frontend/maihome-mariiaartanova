@@ -6,6 +6,8 @@
     #000000F2 95%),
     url(/src/img/leavingroom.webp);
     background-size: cover;
+    max-width: 100%;
+
     overflow: hidden;
     position: relative;
 }
@@ -38,11 +40,12 @@
 }
 
 .contact-us__form-title {
+    font-size: var(--font-size-h2);
     color: var(--text-hero-color);
     margin: 0;
     padding-top: 52px;
 
-    @media (max-width: 420px) {
+    @media (max-width: 1316px) {
         font-size: var(--font-size-h3);
     }
 }
@@ -70,7 +73,7 @@
         width: 60%;
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 470px) {
         width: 100%;
     }
 }
@@ -109,17 +112,22 @@
     font-size: 16px;
     line-height: 18px;
     color: var(--text-neutral-color);
-    padding-left: 24px;
     position: relative;
     cursor: pointer;
+    align-items: center;
 }
 
 .checkbox__input {
+    display: block;
     transition: 0.3s;
-    margin: 0;
     user-select: none;
     appearance: none;
     cursor: inherit;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-right: 9px;
+
 }
 
 .checkbox__input::before {
@@ -179,7 +187,6 @@
 
 .checkbox__link {
     text-decoration: underline;
-    padding-left: 4px;
 }
 
 .contact-us__image {

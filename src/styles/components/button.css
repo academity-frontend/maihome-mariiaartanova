@@ -16,6 +16,11 @@
     margin: 0;
     min-width: 112px;
     padding: 12px 24px;
+
+    @media (max-width: 420px) {
+        min-width: 80px;
+        padding: 8px 16px;
+    }
 }
 
 .btn-primary:hover {
@@ -32,6 +37,9 @@
     color: var(--text-secondary-color);
     min-width: 112px;
 
+    @media (max-width: 420px) {
+        min-width: 100px;
+    }
 }
 
 .btn-secondary:hover {
@@ -46,6 +54,11 @@
 .btn--small {
     font-size: var(--font-size-small);
     padding: var(--spacing-xs) 24px;
+
+    @media (max-width: 420px) {
+        padding: 8px 16px;
+
+    }
 }
 
 .btn-arrow-down {
@@ -109,7 +122,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: absolute;
     bottom: var(--spacing-xs);
     right: var(--spacing-xs);
@@ -120,7 +132,7 @@
 .recommend__card-filter {
     display: none;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 768px) {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -148,6 +160,10 @@
     background-color: var(--button-secondary-color);
     color: var(--text-primary-color);
     padding: 12px 28px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .btn-more:hover {
@@ -183,8 +199,9 @@
         width: 80%;
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 470px) {
         padding: 22px;
+        width: 100%;
     }
 }
 

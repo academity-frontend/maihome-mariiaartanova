@@ -26,7 +26,7 @@
 
 .footer__description {
     color: var(--text-tertiary-color);
-    /*max-width: 532px;*/
+
     margin: 0;
     padding-bottom: 54px;
     padding-top: var(--spacing-m);
@@ -166,6 +166,10 @@
     font-weight: var(--font-weight-regular);
     color: var(--text-tertiary-color);
     margin: 0;
-    padding-right: var(--spacing-2xs);
 }
+
+.footer__bottom-link:not(:last-child) {
+    padding-right: var(--spacing-xs);
+}
+
 

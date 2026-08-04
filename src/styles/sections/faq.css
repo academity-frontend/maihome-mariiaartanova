@@ -51,6 +51,7 @@
     list-style: none;
     padding: 24px;
     position: relative;
+    cursor: pointer;
 
     @media (max-width: 768px) {
         font-size: var(--font-size-p);
